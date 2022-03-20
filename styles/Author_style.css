@@ -1,0 +1,110 @@
+.Author{
+    width: 518px;
+    height: 520px;
+    background-color: #ffffff;
+    box-shadow: 0 0 13px 0 rgba(0,0,0,0.15);
+    left: 754px;
+    top: 2298px;
+    position: absolute;
+}
+
+.Author > #up-line {
+    width: 444px;
+    height: 2px;
+    opacity: 0.2;
+    background-color: rgba(85, 85, 85, 1);
+    margin: 11px 0 0 33px;
+}
+
+.Author > #heading{
+    font-size: 20px;
+    font-weight: 400;
+    font-style: italic;
+    height: 17px;
+    margin: 0 0 0 43px;
+    padding-top: 20px;
+    line-height: 1.2;
+    letter-spacing: -0.025em;
+}
+
+.Author > .Author-info{
+    width: 440px;
+    height: 130px;
+    margin: 24px 46px 0 32px;
+    display: flex;
+}
+
+.Author-info div > #woman{
+    border: 1px solid #ffffff;
+}
+
+.Author-info div > #name{
+    font-size: 24px;
+    line-height: 1.2;
+    font-weight: 700;
+    height: 24px;
+    letter-spacing: -0.025em;
+    margin: 14px 0 0 19px;
+}
+
+.Author-info div > #country{
+    font-size: 16px;
+    line-height: 1.2;
+    font-weight: 300;
+    height: 14px;
+    letter-spacing: -0.025em;
+    margin: 6px 0 0 21px;
+}
+
+.Author-info div > .icons{
+    margin: 12px 0 0 19px;
+    opacity: 0.5;
+    font-size: 16px;
+    height: 15px;
+    line-height: 1.2;
+    font-weight: 400;
+    letter-spacing: 0.08em;
+    color: #555555;
+}
+
+.Author-info div > .icons a{
+    color: #555555;
+}
+
+.Author-info div > .icons a:hover{
+    color: rgba(234,52,26,0.77);
+}
+
+.Author-info div > #down-line{
+    width: 292px;
+    height: 2px;
+    opacity: 0.2;
+    background-color: rgba(85, 85, 85, 1);
+    margin: 18px 0 0 19px;
+}
+
+.Author > #about-header{
+    margin: 1px 0 0 181px;
+    height: 17px;
+    font-size: 20px;
+    line-height: 1.2;
+    font-weight: 400;
+    font-style: italic;
+    letter-spacing: -0.025em;
+}
+
+.Author > #content{
+    font-size: 14px;
+    line-height: 1.2;
+    font-weight: 300;
+    font-style: italic;
+    letter-spacing: -0.025em;
+    width: 288px;
+    height: 148px;
+    margin: 32px 0 0 182px;
+}
+
+.Author > #sign{
+    margin-left: 314px;
+    margin-top: 22px;
+}
