@@ -108,3 +108,122 @@
     margin-left: 314px;
     margin-top: 22px;
 }
+.error-404 {
+    width: 518px;
+    height: 518px;
+    background-color: #ffffff;
+
+    box-shadow: 0 0 13px 0 rgba(0,0,0,0.15);
+    left: 153px;
+    top: 2302px;
+    position: absolute;
+    background-image: url(/images/Plate.png);
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+.error-404-heading{
+    font-size: 20px;
+    font-style: italic;
+    font-weight: 400;
+    left: 44px;
+    top: 23px;
+    padding-left: 44px;
+    padding-top: 5px;
+
+    /*
+    padding-left: 11px;
+    margin-top: 19px;
+    margin-bottom: 0;
+*/
+}
+
+.error-404-up-line {
+    width: 441px;
+    height: 2px;
+    opacity: 0.2;
+    background-color: rgba(85, 85, 85, 1);
+    /*margin: 11px 0 0 33px;*/
+    position: absolute;
+    top:48px;
+    left: 33px;
+    margin-top: 7px;
+    margin-bottom: 0;
+
+}
+
+#error-404-text{
+    text-align: center;
+    padding-top: 130px;
+    padding-left: 5px;
+    font-family: 'Playfair Display', serif;
+    color: rgb(169,169,169, 0.66);
+    font-size: 16px;
+    font-weight: 900;
+    margin-top: 0px;
+    margin-bottom: 0px;
+
+    /*margin-top: 13px;
+
+*/
+}
+
+#error-404-sorry {
+    font-size: 34px;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 600;
+    color: black;
+    margin-top: 13px;
+    margin-bottom: 0px;
+
+    /*
+    padding-bottom: 13px;
+     */
+
+}
+#error-404-smile {
+    padding-top: 13px;
+    padding-bottom: 13px;
+    font-size: 33px;
+    display: inline-block;
+    transform: rotate(75deg) translate(-28px, -22px);
+
+}
+
+#error-404-smile-sad {
+    font-family: Sylfaen;
+    font-weight: 400;
+    display: inline-block;
+    font-size: 33px;
+    transform: rotate(75deg) translate(-21px, -8px);
+
+}
+
+.error-404-button{
+    padding-top: 57px;
+    /*margin-top: 60px;
+    */
+    text-align: center;
+
+    padding-bottom: 52px;
+}
+
+.error-404-button button{
+    background-color: rgb(250,251,250);
+    width: 103px;
+    height: 26px;
+    border: solid #c1c1c1 1px;
+
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 12px;
+    font-weight: 300
+    padding-top: 15px;
+}
+
+.error-404-button button:hover{
+    background-color: #555555;
+}
+
+.error-404-button button:active{
+    font-size: 11px;
+}
