@@ -108,6 +108,8 @@
     margin-left: 314px;
     margin-top: 22px;
 }
+
+
 .error-404 {
     width: 518px;
     height: 518px;
@@ -216,7 +218,7 @@
 
     font-family: 'Josefin Sans', sans-serif;
     font-size: 12px;
-    font-weight: 300
+    font-weight: 300;
     padding-top: 15px;
 }
 
@@ -226,4 +228,61 @@
 
 .error-404-button button:active{
     font-size: 11px;
+}
+
+.hashtags {
+    width: 290px;
+    height: 160px;
+    background-color: #ffffff;
+    left: 568px;
+    top: 3369px;
+    position: absolute;
+}
+#hashtags-heading {
+    font-size: 20px;
+    font-style: italic;
+    font-weight: 400;
+    left: 44px;
+    top: 23px;
+    margin-top: 26px;
+    margin-bottom: 0px;
+    padding-left: 17px;
+    padding-top: 0px;
+}
+.hashtags-up-line {
+
+    /*
+    width: 441px;
+     */
+
+    width: 252px;
+    margin-left: 1px;
+    /*
+    17 22
+     */
+    margin-left: 17px;
+    margin-right: 22px;
+    height: 2px;
+    opacity: 0.2;
+    background-color: rgba(85, 85, 85, 1);
+    /*margin: 11px 0 0 33px;*/
+    /*position: absolute;
+    top:48px;
+    left: 33px;
+
+    margin-top: 7px;
+     */
+    /*
+    margin-bottom: 0;
+     */
+}
+.hashtags-text {
+    font-family: 'Josefin Sans';
+    font-size: 12px;
+    line-height: 1.8;
+    font-weight: 300;
+    text-transform: uppercase;
+    letter-spacing: 0.025em;
+    color: #000000;
+    padding-left: 23px;
 }
