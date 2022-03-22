@@ -286,3 +286,375 @@
     color: #000000;
     padding-left: 23px;
 }
+
+.post-a-comment{
+    width: 839px;
+    height: 188px;
+    background-color: #ffffff;
+    box-shadow: 0 0 13px 0 rgba(0,0,0,0.15);
+    left: 282px;
+    top: 4704px;
+    position: absolute;
+}
+
+.post-a-comment-heading{
+    font-size: 24px;
+    font-style: italic;
+    font-weight: 400;
+    left: 39px;
+    top: 23px;
+    position: absolute;
+}
+
+.post-a-comment-facebook{
+    font-size: 16px;
+    font-style: italic;
+    font-weight: 400;
+    left: 643px;
+    top: 34px;
+    position: absolute;
+     /*padding-left: 643px;*/
+}
+
+.post-a-comment-twitter{
+    font-size: 16px;
+    font-style: italic;
+    font-weight: 400;
+    left: 739px;
+    top: 34px;
+    position: absolute;
+/*padding-left: 739px;*/
+}
+
+.post-a-comment-field{
+    width: 754px;
+    height: 90px;
+    background-color: rgba(85, 85, 85, 1);
+    box-shadow: 0 0 13px 0 rgba(0,0,0,0.15);
+    left: 40px;
+    top: 65px;
+    opacity:0.050980392156862744;
+    position: absolute;
+}
+
+.post-input{
+    width: 492px;
+    height: 40px;
+    left: 141px;
+    top: 24px;
+    border: solid #c1c1c1 1px;
+    stroke-width: 1;
+    stroke-linecap: butt;
+    stroke-miterlimit: 100;
+    stroke-dashoffset: 0;
+    stroke-linejoin: miter;
+    padding-left: 0px;
+
+    position: absolute;
+}
+
+.img-woman {
+    width: 57px;
+    height: 57px;
+    left: 58px;
+    top: 78px;
+    position: absolute;
+}
+
+.post-a-comment-button{
+    text-align: center;
+    left: 681px;
+    top: 89px;
+    position: absolute;
+}
+
+.post-a-comment-button button{
+    width: 89px;
+    height: 42px;
+    border: solid #c1c1c1 1px;
+    background-color: rgba(60, 60, 60, 1);
+    color: #ffffff;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    /*padding-top: 15px;*/
+}
+
+/*____________________________*/
+
+.login{
+    width: 329px;
+    height: 407px;
+    background-color: #ffffff;
+    box-shadow: 0 0 13px 0 rgba(0,0,0,0.15);
+    left: 340px;
+    top: 4044px;
+    position: absolute;
+}
+
+.login-heading{
+    font-size: 20px;
+    font-style: italic;
+    font-weight: 400;
+    left: 31px;
+    top: 19px;
+    position: absolute;
+}
+
+.login-line {
+    width: 272px;
+    height: 2px;
+    opacity: 0.2;
+    background-color: rgba(85, 85, 85, 1);
+
+    position: absolute;
+    top:46px;
+    left: 25px;
+    margin-top: 7px;
+    margin-bottom: 0;
+}
+
+.login-text {
+    font-size: 16px;
+    font-weight: 300;
+    left: 30px;
+    top: 77px;
+    position: absolute;
+}
+
+.login-input1{
+    width: 267px;
+    height: 42px;
+    left: 32px;
+    top: 116px;
+    border: solid #c1c1c1 2px;
+    stroke-width: 1;
+    stroke-linecap: butt;
+    stroke-miterlimit: 100;
+    stroke-dashoffset: 0;
+    stroke-linejoin: miter;
+    padding-left: 0px;
+    font-style: italic;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 14px;
+    box-shadow: inset 2px 2px 5px -1px rgba(0, 0, 0, 0.8);
+
+    position: absolute;
+
+    color: #212529;
+    opacity: 0.3;
+}
+
+.login-input2{
+    width: 267px;
+    height: 42px;
+    left: 32px;
+    top: 176px;
+    border: solid #c1c1c1 2px;
+    stroke-width: 1;
+    stroke-linecap: butt;
+    stroke-miterlimit: 100;
+    stroke-dashoffset: 0;
+    stroke-linejoin: miter;
+    padding-left: 0px;
+    font-style: italic;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 14px;
+    position: absolute;
+
+    color: #212529;
+    opacity: 0.3;
+}
+
+.login-input3{
+    width: 8px;
+    height: 8px;
+    left: 32px;
+    top: 232px;
+    border-radius: 2px 2px 2px 2px;
+    box-shadow: 0 0 3px rgba(0,0,0,0.5);
+    border: solid #212529 1px;
+    stroke-width: 1;
+    stroke-linecap: butt;
+    stroke-miterlimit: 100;
+    stroke-dashoffset: 0;
+    stroke-linejoin: miter;
+    position: absolute;
+    opacity: 0.3;
+}
+
+.login-text-left{
+    width: 80px;
+    height: 10px;
+    font-size: 12px;
+    font-style: italic;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 500;
+    left: 49px;
+    top: 232px;
+    position: absolute;
+    opacity:0.4;
+    color:#212529;
+}
+
+.login-text-right{
+    width: 130px;
+    height: 10px;
+    font-size: 12px;
+    font-style: italic;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 500;
+    left: 178px;
+    top: 232px;
+    position: absolute;
+    opacity:0.4;
+    color:#212529;
+}
+
+.login-button{
+    text-align: center;
+    left: 112px;
+    top:277px;
+    position: absolute;
+}
+
+.login-button button{
+    width: 107px;
+    height: 30px;
+    border: solid #c1c1c1 1px;
+    background-color: rgb(250,251,250);
+    color: #000000;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 12px;
+    font-weight: 300;
+}
+
+.login-text-bottom{
+    width: 230px;
+    height: 16px;
+    font-size: 16px;
+    font-style: italic;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 500;
+    left: 64px;
+    top: 367px;
+    position: absolute;
+    opacity:0.4;
+    color:#212529;
+}
+
+/*----------------------*/
+
+.signin{
+    width: 329px;
+    height: 536px;
+    background-color: #ffffff;
+    box-shadow: 0 0 13px 0 rgba(0,0,0,0.15);
+    left: 755px;
+    top: 4044px;
+    position: absolute;
+}
+
+.signin-input2{
+    width: 267px;
+    height: 42px;
+    left: 32px;
+    top: 171px;
+    border: solid #c1c1c1 2px;
+    stroke-width: 1;
+    stroke-linecap: butt;
+    stroke-miterlimit: 100;
+    stroke-dashoffset: 0;
+    stroke-linejoin: miter;
+    padding-left: 0px;
+    font-style: italic;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 14px;
+    position: absolute;
+
+    color: #212529;
+    opacity: 0.3;
+}
+
+.signin-input3{
+    width: 267px;
+    height: 42px;
+    left: 32px;
+    top: 228px;
+    border: solid #c1c1c1 2px;
+    stroke-width: 1;
+    stroke-linecap: butt;
+    stroke-miterlimit: 100;
+    stroke-dashoffset: 0;
+    stroke-linejoin: miter;
+    padding-left: 0px;
+    font-style: italic;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 14px;
+    position: absolute;
+
+    color: #212529;
+    opacity: 0.3;
+}
+
+.signin-input4{
+    width: 267px;
+    height: 42px;
+    left: 32px;
+    top: 283px;
+    border: solid #c1c1c1 2px;
+    stroke-width: 1;
+    stroke-linecap: butt;
+    stroke-miterlimit: 100;
+    stroke-dashoffset: 0;
+    stroke-linejoin: miter;
+    padding-left: 0px;
+    font-style: italic;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 14px;
+    position: absolute;
+
+    color: #212529;
+    opacity: 0.3;
+}
+
+.signin-button{
+    text-align: center;
+    left: 113px;
+    top:361px;
+    position: absolute;
+}
+
+.signin-button button{
+    width: 107px;
+    height: 30px;
+    border: solid #c1c1c1 1px;
+    background-color: rgb(250,251,250);
+    color: #000000;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 12px;
+    font-weight: 300;
+}
+
+.signin-text-top{
+    width: 240px;
+    height: 31px;
+    font-size: 14px;
+    font-style: italic;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 500;
+    left: 35px;
+    top: 448px;
+    position: absolute;
+    opacity:0.4;
+    color:#212529;
+}
+
+.signin-text-bottom{
+    font-size: 12px;
+    font-weight: 300;
+    left: 39px;
+    top: 494px;
+    position: absolute;
+    color:#212529;
+}
