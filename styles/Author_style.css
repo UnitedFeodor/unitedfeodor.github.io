@@ -728,3 +728,853 @@ footer #icons a:hover{
     margin-top: 20px;
     margin-bottom: 16px;
 }
+
+/* BANANA RECIPE*/
+
+div.banana-parent {
+	/*border: 1px solid black;*/
+    position: absolute;
+    left: 153px;
+    top: 1724px;
+    width: 1120px;
+    height: 438px;
+}
+
+div.banana-parent div.recipe-image {
+	/*border: 1px solid red;*/
+    position: absolute;
+    left: 0px;
+    top: 0px;
+	width: 520px;
+	height: 436px;
+	background: url("../images/banana.png") no-repeat center;
+	background-size: 520px 436px;
+}
+
+div.banana-parent div.recipe {
+	/*border: 1px solid green;*/
+	background-color: rgb(255, 255, 255); 
+    position: absolute;
+    left: 520px;
+    top: 0px;
+	width: 600px;
+	height: 436px;
+}
+
+div.banana-parent div.recipe div.recipe-title {
+	/* border: 1px solid blue; */
+    color: rgb(5, 85, 85);
+    font-family: 'Playfair Display', serif;
+    font-size: 36px;
+    font-weight: bolder;
+    font-stretch: expanded;
+    margin-top: 27px;
+    margin-left: 35px;
+}
+
+div.recipe-properties {
+	/*border: 1px solid blue;*/
+	color: rgb(85, 85, 85);
+	font-family: 'OpenSans Light', serif;
+	font-size: 18px;
+	margin-top: 20px;   
+}
+
+div.recipe-ingredients {
+	/*border: 1px solid red;*/
+    /*color: rgb(119, 119, 119);*/
+    /*font-family: 'Playfair Display', serif;*/
+    font-size: 16px;
+    font-style: italic;
+    line-height: 1.2;
+    font-weight: 300;
+    margin-top: 23px;
+    margin-left: 35px;  
+}
+
+
+div.recipe-directions-title {
+	/*border: 1px solid blue;*/
+	color: black;
+	/*font-family: 'Playfair Display', serif;*/
+    font-size: 18px;
+    font-weight: bold;
+	margin-top: 20px;
+    margin-left: 35px;
+}
+
+div.recipe-directions {
+	font-size: 16px;
+    font-style: italic;
+    line-height: 1.2;
+    font-weight: 300;
+	margin-top: 20px;
+    margin-left: 35px;
+    
+}
+
+.time {
+	margin-left: 35px;
+	
+}
+
+.difficulty {
+	margin-left: 5px;
+	
+}
+
+.save-button {
+    
+    text-align: center;
+
+}
+
+.save-button button {
+    background-color: rgb(255,255,255);
+    width: 103px;
+    height: 26px;
+    border: solid #c1c1c1 1px;
+
+    /*font-family: 'Josefin Sans', sans-serif;*/
+    font-size: 12px;
+    font-weight: 300;
+    margin-left: 265px;
+}
+
+.save-button button:hover {
+    background-color: #555555;
+}
+
+.save-button button:active {
+    font-size: 11px;
+}
+
+.vl1 {
+	border-left: 2px solid black;
+    height: 130px;
+    position: absolute;
+    top: 135px;
+    left: 580px;
+
+}
+
+.vl2 {
+	border-left: 2px solid grey;
+    height: 140px;
+    position: absolute;
+    top: 265px;
+    left: 580px;
+
+}
+
+.photo-icon {
+	color: white;
+	position: absolute;
+	top: 25px;
+	left: 451px;
+}
+
+.icon-base {
+	width: 52px;
+	height: 62px;
+	background-color: black;
+	opacity: 0.5;
+	margin-left: 437px;
+	margin-top: 0px;
+}
+
+/*TARGET DIAGRAMS*/
+
+div.target-parent {
+    /*border: 1px solid black;*/
+    position: absolute;
+    left: 153px;
+    top: 3290px;
+    width: 290px;
+    height: 472px;
+    background-color: white; 
+}
+
+div.target-title {
+    /* border: 1px solid blue; */
+    font-size: 16px;
+    margin-top: 27px;
+    margin-left: 20px;
+}
+
+.icons1 {
+    margin-left: 115px;
+    opacity: 0.5;
+    font-size: 16px;
+    height: 15px;
+    line-height: 1.2;
+    font-weight: 400;
+    letter-spacing: 0.08em;
+    color: #555555;
+    justify-content: space-between;
+}
+
+.icons1 a{
+    color: #555555;
+}
+
+.icons1 a:hover{
+    color: rgba(234,52,26,0.77);
+}
+
+.line1 {
+    width: 252px;
+    height: 2px;
+    opacity: 0.2;
+    background-color: rgba(85, 85, 85, 1);
+    margin-left: : 0px;
+    margin-right: 30px;
+}
+
+.presentation-line {
+    color: rgb(5, 85, 85);
+    font-family: 'playfairdisplay-black', serif;
+    font-size: 20px;
+    font-weight: bolder;
+    font-stretch: expanded;
+    margin-top: 18px;
+    margin-left: 10px;
+}
+
+.round-pink {
+  width: 30px;
+  height: 54px;
+  background: url("../images/pink_duga.png") no-repeat center;
+  position: absolute;
+  left: 49px;
+  top: 120px;
+}
+
+.round1 {
+  width: 58px;
+  height: 58px;
+  background: url("../images/grey.png") no-repeat center;
+  margin-top: 17px;
+  margin-left: 0px;
+  
+}
+
+.housewives {
+    margin-top: -5px;
+    margin-left: 40px;
+    font-family: 'Josefin Sans Light', serif;
+    line-height: 1.2;
+    color: #555555;
+    font-size: 16px;
+    font-weight: 200; 
+
+}
+
+.Lorem {
+    margin-top: -35px;
+    margin-left: 70px;
+    width: 130px;
+    height: 31px;
+    color: #000000;
+    opacity: 0.5;
+    font-style: italic;
+    font-family: 'Josefin Sans lightitalic',serif;
+    font-size: 14px;
+}
+.procent19 {
+    
+    margin-left: -18px;
+    font-family: 'Josefin Sans light',serif;
+    color: #959595;
+    font-size: 20px;
+
+}
+
+
+.round2 {
+  width: 58px;
+  height: 58px;
+  background: url("../images/grey.png") no-repeat center;
+  margin-top: 61px;
+  margin-left: 2px;
+  
+}
+
+.round-green {
+  width: 53px;
+  height: 58px;
+  background: url("../images/green_duga.png") no-repeat center;
+  position: absolute;
+  left: 28px;
+  top: 230px;
+}
+
+.Newlyweds {
+    margin-top: 0px;
+    margin-left: 60px;
+    font-family: 'Josefin Sans Light', serif;
+    line-height: 1.2;
+    color: #555555;
+    font-size: 16px;
+    font-weight: 200; 
+
+}
+
+.Has {
+    margin-top: -35px;
+    margin-left: 68px;
+    width: 153px;
+    height: 47px;
+    color: #000000;
+    opacity: 0.5;
+    font-style: italic;
+    font-family: 'Josefin Sans lightitalic',serif;
+    font-size: 14px;
+}
+.procent65 {
+    
+    margin-left: 5px;
+    font-family: 'Josefin Sans light',serif;
+    color: #959595;
+    font-size: 20px;
+
+}
+
+.round3 {
+  width: 58px;
+  height: 58px;
+  background: url("../images/grey.png") no-repeat center;
+  margin-top: 61px;
+  margin-left: 2px;
+  
+}
+
+.round-bir {
+  width: 58px;
+  height: 30px;
+  background: url("../images/biruzovy_duga.png") no-repeat center;
+  position: absolute;
+  left: 22px;
+  top: 390px;
+}
+
+.Business-lady {
+    margin-top: -30px;
+    margin-left: 66px;
+    font-family: 'Josefin Sans Light', serif;
+    line-height: 1.2;
+    color: #555555;
+    font-size: 16px;
+    font-weight: 200; 
+    width: 93px;
+
+}
+
+.Ei {
+    margin-top: -35px;
+    margin-left: 68px;
+    width: 153px;
+    height: 47px;
+    color: #000000;
+    opacity: 0.5;
+    font-style: italic;
+    font-family: 'Josefin Sans lightitalic',serif;
+    font-size: 14px;
+}
+.procent50 {
+    
+    margin-left: 10px;
+    font-family: 'Josefin Sans light',serif;
+    color: #959595;
+    font-size: 20px;
+
+}
+
+/*TIMELINE */
+
+div.Timeline-parent {
+    position: absolute;
+    left: 934px;
+    top: 3291px;
+    width: 290px;
+    height: 472px;
+    background-color: white; 
+}
+
+div.Timeline-title {
+    color: #000000;
+    font-size: 16px;
+    margin-top: 27px;
+    margin-left: 20px;
+}
+
+.icons2 {
+    margin-left: 105px;
+    opacity: 0.5;
+    font-size: 16px;
+    height: 15px;
+    line-height: 1.2;
+    font-weight: 400;
+    letter-spacing: 0.08em;
+    color: #555555;
+    justify-content: space-between;
+}
+
+.icons2 a{
+    color: #555555;
+}
+
+.icons2 a:hover{
+    color: rgba(234,52,26,0.77);
+}
+
+.line2 {
+    width: 252px;
+    height: 2px;
+    opacity: 0.2;
+    background-color: rgba(85, 85, 85, 1);
+    margin-left: : 0px;
+    margin-right: 30px;
+}
+
+.Time-line {
+    color: rgb(5, 85, 85);
+    font-family: 'Playfair Display', serif;
+    font-size: 20px;
+    font-weight: bolder;
+    font-stretch: expanded;
+    margin-top: 18px;
+    margin-left: 10px;
+}
+
+.min15 {
+    font-family: 'OpenSans Light',serif;
+    color: #555555;
+    transform: rotate(-90deg);
+    position: absolute;
+    left: 50px;
+    top: 230px;
+}
+
+.min25 {
+    font-family: 'OpenSans Light',serif;
+    color: #555555;
+    position: absolute;
+    left: 125px;
+    top: 195px;
+    transform: rotate(-90deg);
+}
+
+.min40 {
+    font-family: 'OpenSans Light',serif;
+    color: #555555;
+    position: absolute;
+    left: 206px;
+    top: 160px;
+    transform: rotate(-90deg);
+}
+
+.easy-diagram {
+  width: 10px;
+  height: 129px;
+  background: url("../images/Easy.png") no-repeat center;
+  position: absolute;
+  left: 70px;
+  top: 240px;
+
+}
+
+.middle-diagram {
+  width: 10px;
+  height: 120px;
+  background: url("../images/Middle.png") no-repeat center;
+  position: absolute;
+  left: 147px;
+  top: 230px;
+}
+
+.long-diagram {
+  width: 10px;
+  height: 152px;
+  background: url("../images/Long.png") no-repeat center;
+  position: absolute;
+  left: 227px;
+  top: 195px;
+}
+
+.line3 {
+    width: 194px;
+    height: 3px;
+    opacity: 0.2;
+    background-color: rgba(85, 85, 85, 1);
+    position: absolute;
+    top: 355px;
+    left: 50px;
+}
+
+.easy {
+    font-family: 'Josefin Sans Light',serif;
+    color: #555555;
+    opacity: 0.8;
+    font-size: 18px;
+    transform: rotate(-90deg);
+    position: absolute;
+    left: 33px;
+    top: 303px;
+}
+
+.middle {
+    font-family: 'Josefin Sans Light',serif;
+    color: #555555;
+    opacity: 0.8;
+    font-size: 18px;
+    transform: rotate(-90deg);
+    position: absolute;
+    left: 100px;
+    top: 295px;
+}
+
+.long {
+    font-family: 'Josefin Sans Light',serif;
+    color: #555555;
+    opacity: 0.8;
+    font-size: 18px;
+    transform: rotate(-90deg);
+    position: absolute;
+    left: 191px;
+    top: 300px;
+}
+
+.Eam {
+    width: 200px;
+    height: 47px;
+    color: #000000;
+    opacity: 0.5;
+    font-style: italic;
+    font-family: 'Josefin Sans lightitalic',serif;
+    font-size: 15px;
+    margin-top: 270px;
+    margin-left: 30px;
+}
+
+/*RECIPE */
+
+div.recipe-parent {
+    position: absolute;
+    left: 586px;
+    top: 2894px;
+    width: 290px;
+    height: 472px;
+    background-color: white; 
+}
+
+div.title-recipe {
+    /* border: 1px solid blue; */
+    font-size: 16px;
+    margin-top: 27px;
+    margin-left: 20px;
+}
+
+.icons3 {
+    margin-left: 115px;
+    opacity: 0.5;
+    font-size: 16px;
+    height: 15px;
+    line-height: 1.2;
+    font-weight: 400;
+    letter-spacing: 0.08em;
+    color: #555555;
+    justify-content: space-between;
+}
+
+.icons3 a{
+    color: #555555;
+}
+
+.icons3 a:hover{
+    color: rgba(234,52,26,0.77);
+}
+
+.line4 {
+    width: 252px;
+    height: 2px;
+    opacity: 0.2;
+    background-color: rgba(85, 85, 85, 1);
+    margin-left: : 0px;
+    margin-right: 30px;
+}
+
+.recipe-difficulty {
+    margin-top: 15px;
+    margin-left: 47px;
+}
+
+.easy-title {
+    font-family: 'Josefin Sans bold', serif;
+    font-size: 14px;
+    color: #000000;
+    opacity: 0.8;
+}
+
+.easy-title:hover {
+    font-family: 'Josefin Sans bold', serif;
+    font-size: 14px;
+    color: #000000;
+    font-weight: bold;
+}
+
+.middle-title {
+    margin-left: 25px;
+    font-family: 'Josefin Sans bold', serif;
+    font-size: 14px;
+    color: #000000;
+    opacity: 0.8;
+}
+
+.middle-title:hover {
+    font-family: 'Josefin Sans bold', serif;
+    font-size: 14px;
+    color: #000000;
+    font-weight: bold;
+}
+
+
+.long-title {
+    margin-left: 25px;
+    font-family: 'Josefin Sans bold', serif;
+    font-size: 14px;
+    color: #000000;
+    opacity: 0.8;
+}
+
+.long-title:hover {
+    font-family: 'Josefin Sans bold', serif;
+    font-size: 14px;
+    color: #000000;
+    font-weight: bold;
+}
+
+.recipe1 {
+    margin-left: -13px;
+    margin-top: 20px;
+
+}
+
+.recipe1-picture {
+    background: url("../images/salad1.png") no-repeat center;
+    width: 107px;
+    height: 67px;
+}
+
+.by1 {
+    font-size: 12px;
+    margin-left: 95px;
+    margin-top: -58px;
+    opacity: 0.8;
+}
+
+.toppings1 {
+    margin-left: 110px;
+    margin-top: -12px;
+    font-size: 12px;
+    font-weight: 600;
+}
+
+.recipe1-text {
+    margin-left: 95px;
+    margin-top: 10px;
+    width: 191px;
+    height: 69px;
+    font-size: 16px;
+    font-family: 'Josefin Sans', serif;
+}
+
+.recipe2 {
+    margin-left: 0px;
+    margin-top: 20px;
+
+}
+
+.recipe2-picture {
+    background: url("../images/salad2.png") no-repeat center;
+    width: 169px;
+    height: 112px;
+}
+
+.by2 {
+    font-size: 12px;
+    margin-left: 83px;
+    margin-top: -110px;
+    opacity: 0.8;
+}
+
+.toppings2 {
+    margin-left: 98px;
+    margin-top: -12px;
+    font-size: 12px;
+    font-weight: 600;
+}
+
+.recipe2-text {
+    margin-left: 83px;
+    margin-top: 10px;
+    width: 191px;
+    height: 69px;
+    font-size: 16px;
+    font-family: 'Josefin Sans', serif;
+}
+
+.recipe3 {
+    margin-left: 0px;
+    margin-top: 20px;
+
+}
+
+.recipe3-picture {
+    background: url("../images/salad3.png") no-repeat center;
+    width: 109px;
+    height: 81px;
+    margin-left: 20px;
+    margin-top: -40px;
+}
+
+.by3 {
+    font-size: 12px;
+    margin-left: 83px;
+    margin-top: -50px;
+    opacity: 0.8;
+}
+
+.toppings3 {
+    margin-left: 98px;
+    margin-top: -12px;
+    font-size: 12px;
+    font-weight: 600;
+}
+
+.recipe3-text {
+    margin-left: 83px;
+    margin-top: 10px;
+    width: 191px;
+    height: 69px;
+    font-size: 16px;
+    font-family: 'Josefin Sans', serif;
+}
+
+.viewmore-button {
+    text-align: center;
+}
+
+
+
+.viewmore-button button {
+    background-color: rgb(255,255,255);
+    width: 103px;
+    height: 26px;
+    border: solid #c1c1c1 1px;
+    font-size: 12px;
+    font-weight: 300;
+    margin-left: 145px;
+}
+
+.viewmore-button button:hover {
+    background-color: #555555;
+}
+
+.viewmore-button button:active {
+    font-size: 11px;
+}
+
+/* PAGES */
+
+.pages-parent {
+    position: absolute;
+    left: 283px;
+    top: 5743px;
+    width: 839px;
+    height: 93px;
+    background-color: white; 
+}
+
+.pages {
+    font-family: 'Josefin Sans Light',serif;
+    font-size: 18px;
+    text-align: center;
+    font-weight: lighter;
+    opacity: 0.8;
+    word-spacing: 30px;
+    margin-top: 40px;
+}
+
+.front-bracket:hover {
+    color: #629494;
+
+}
+
+.front-bracket {
+    text-decoration: none;
+    color: black;
+}
+
+.back-bracket:hover {
+    color: #629494;
+}
+
+.back-bracket {
+    color: black;
+    text-decoration: none;
+}
+
+.first-page:hover {
+    color: #629494;
+}
+
+.first-page {
+    text-decoration: none;
+    color: black;
+}
+
+.second-page:hover {
+    color: #629494;
+}
+
+.second-page {
+    color: black;
+    text-decoration: none;
+}
+
+.third-page:hover {
+    color: #629494;
+}
+
+.third-page {
+    color: black;
+    text-decoration: none;
+}
+
+.fourth-page:hover {
+    color: #629494;
+}
+
+.fourth-page {
+    color: black;
+    text-decoration: none;
+}
+
+.fifth-page:hover {
+    color: #629494;
+}
+
+.fifth-page {
+    color: black;
+    text-decoration: none;
+}
+
+.sixth-page:hover {
+    color: #629494;
+}
+
+.sixth-page {
+    color: black;
+    text-decoration: none;
+}
