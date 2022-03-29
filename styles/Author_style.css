@@ -1091,3 +1091,169 @@ div.target-title {
 
 }
 
+/*TIMELINE */
+
+div.Timeline-parent {
+    position: absolute;
+    left: 934px;
+    top: 3291px;
+    width: 290px;
+    height: 472px;
+    background-color: white; 
+}
+
+div.Timeline-title {
+    color: #000000;
+    font-size: 16px;
+    margin-top: 27px;
+    margin-left: 20px;
+}
+
+.icons2 {
+    margin-left: 105px;
+    opacity: 0.5;
+    font-size: 16px;
+    height: 15px;
+    line-height: 1.2;
+    font-weight: 400;
+    letter-spacing: 0.08em;
+    color: #555555;
+    justify-content: space-between;
+}
+
+.icons2 a{
+    color: #555555;
+}
+
+.icons2 a:hover{
+    color: rgba(234,52,26,0.77);
+}
+
+.line2 {
+    width: 252px;
+    height: 2px;
+    opacity: 0.2;
+    background-color: rgba(85, 85, 85, 1);
+    margin-left: : 0px;
+    margin-right: 30px;
+}
+
+.Time-line {
+    color: rgb(5, 85, 85);
+    font-family: 'Playfair Display', serif;
+    font-size: 20px;
+    font-weight: bolder;
+    font-stretch: expanded;
+    margin-top: 18px;
+    margin-left: 10px;
+}
+
+.min15 {
+    font-family: 'OpenSans Light',serif;
+    color: #555555;
+    transform: rotate(-90deg);
+    position: absolute;
+    left: 50px;
+    top: 230px;
+}
+
+.min25 {
+    font-family: 'OpenSans Light',serif;
+    color: #555555;
+    position: absolute;
+    left: 125px;
+    top: 195px;
+    transform: rotate(-90deg);
+}
+
+.min40 {
+    font-family: 'OpenSans Light',serif;
+    color: #555555;
+    position: absolute;
+    left: 206px;
+    top: 160px;
+    transform: rotate(-90deg);
+}
+
+.easy-diagram {
+  width: 10px;
+  height: 129px;
+  background-image: url(/images/Easy.png");
+  position: absolute;
+  left: 70px;
+  top: 240px;
+
+}
+
+.middle-diagram {
+  width: 10px;
+  height: 120px;
+  background-image: url(/images/Middle.png);
+  position: absolute;
+  left: 147px;
+  top: 230px;
+}
+
+.long-diagram {
+  width: 10px;
+  height: 152px;
+  background-image: url(/images/Long.png);
+  position: absolute;
+  left: 227px;
+  top: 195px;
+}
+
+.line3 {
+    width: 194px;
+    height: 3px;
+    opacity: 0.2;
+    background-color: rgba(85, 85, 85, 1);
+    position: absolute;
+    top: 355px;
+    left: 50px;
+}
+
+.easy {
+    font-family: 'Josefin Sans Light',serif;
+    color: #555555;
+    opacity: 0.8;
+    font-size: 18px;
+    transform: rotate(-90deg);
+    position: absolute;
+    left: 33px;
+    top: 303px;
+}
+
+.middle {
+    font-family: 'Josefin Sans Light',serif;
+    color: #555555;
+    opacity: 0.8;
+    font-size: 18px;
+    transform: rotate(-90deg);
+    position: absolute;
+    left: 100px;
+    top: 295px;
+}
+
+.long {
+    font-family: 'Josefin Sans Light',serif;
+    color: #555555;
+    opacity: 0.8;
+    font-size: 18px;
+    transform: rotate(-90deg);
+    position: absolute;
+    left: 191px;
+    top: 300px;
+}
+
+.Eam {
+    width: 200px;
+    height: 47px;
+    color: #000000;
+    opacity: 0.5;
+    font-style: italic;
+    font-family: 'Josefin Sans lightitalic',serif;
+    font-size: 15px;
+    margin-top: 270px;
+    margin-left: 30px;
+}
