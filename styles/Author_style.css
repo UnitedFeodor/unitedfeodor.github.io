@@ -747,7 +747,7 @@ div.banana-parent div.recipe-image {
     top: 0px;
 	width: 520px;
 	height: 436px;
-	background-image: url(../images/banana.png);
+	background-image: url(/images/banana.png);
 	background-size: 520px 436px;
 }
 
