@@ -728,3 +728,158 @@ footer #icons a:hover{
     margin-top: 20px;
     margin-bottom: 16px;
 }
+
+/* BANANA RECIPE*/
+
+div.banana-parent {
+	/*border: 1px solid black;*/
+    position: absolute;
+    left: 153px;
+    top: 1724px;
+    width: 1120px;
+    height: 438px;
+}
+
+div.banana-parent div.recipe-image {
+	/*border: 1px solid red;*/
+    position: absolute;
+    left: 0px;
+    top: 0px;
+	width: 520px;
+	height: 436px;
+	background-image: url(../images/banana.png);
+	background-size: 520px 436px;
+}
+
+div.banana-parent div.recipe {
+	/*border: 1px solid green;*/
+	background-color: rgb(255, 255, 255); 
+    position: absolute;
+    left: 520px;
+    top: 0px;
+	width: 600px;
+	height: 436px;
+}
+
+div.banana-parent div.recipe div.recipe-title {
+	/* border: 1px solid blue; */
+    color: rgb(5, 85, 85);
+    font-family: 'Playfair Display', serif;
+    font-size: 36px;
+    font-weight: bolder;
+    font-stretch: expanded;
+    margin-top: 27px;
+    margin-left: 35px;
+}
+
+div.recipe-properties {
+	/*border: 1px solid blue;*/
+	color: rgb(85, 85, 85);
+	font-family: 'OpenSans Light', serif;
+	font-size: 18px;
+	margin-top: 20px;   
+}
+
+div.recipe-ingredients {
+	/*border: 1px solid red;*/
+    /*color: rgb(119, 119, 119);*/
+    /*font-family: 'Playfair Display', serif;*/
+    font-size: 16px;
+    font-style: italic;
+    line-height: 1.2;
+    font-weight: 300;
+    margin-top: 23px;
+    margin-left: 35px;  
+}
+
+
+div.recipe-directions-title {
+	/*border: 1px solid blue;*/
+	color: black;
+	/*font-family: 'Playfair Display', serif;*/
+    font-size: 18px;
+    font-weight: bold;
+	margin-top: 20px;
+    margin-left: 35px;
+}
+
+div.recipe-directions {
+	font-size: 16px;
+    font-style: italic;
+    line-height: 1.2;
+    font-weight: 300;
+	margin-top: 20px;
+    margin-left: 35px;
+    
+}
+
+.time {
+	margin-left: 35px;
+	
+}
+
+.difficulty {
+	margin-left: 5px;
+	
+}
+
+.save-button {
+    
+    text-align: center;
+
+}
+
+.save-button button {
+    background-color: rgb(255,255,255);
+    width: 103px;
+    height: 26px;
+    border: solid #c1c1c1 1px;
+
+    /*font-family: 'Josefin Sans', sans-serif;*/
+    font-size: 12px;
+    font-weight: 300;
+    margin-left: 265px;
+}
+
+.save-button button:hover {
+    background-color: #555555;
+}
+
+.save-button button:active {
+    font-size: 11px;
+}
+
+.vl1 {
+	border-left: 2px solid black;
+    height: 130px;
+    position: absolute;
+    top: 135px;
+    left: 580px;
+
+}
+
+.vl2 {
+	border-left: 2px solid grey;
+    height: 140px;
+    position: absolute;
+    top: 265px;
+    left: 580px;
+
+}
+
+.photo-icon {
+	color: white;
+	position: absolute;
+	top: 25px;
+	left: 451px;
+}
+
+.icon-base {
+	width: 52px;
+	height: 62px;
+	background-color: black;
+	opacity: 0.5;
+	margin-left: 437px;
+	margin-top: 0px;
+}
+
