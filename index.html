@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <title>Lemon</title>
     <!--Font awesome icons-->
-    <!-- <script src="https://kit.fontawesome.com/0499fe682d.js" crossorigin="anonymous"></script> -->
+    <script src="https://kit.fontawesome.com/0499fe682d.js" crossorigin="anonymous"></script>
     <!--Google fonts: Josefin Sans-->
     <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@1,300&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&display=swap" rel="stylesheet">
@@ -18,6 +18,62 @@
 
 <body style="background: rgba(234,234,234,1); width: 1440px; height: 9131px;">
     <!--Something (part1) -->
+    <!--
+    <div class="top-menu">
+        <img class="top-menu-logo" src="images/Lemon_topmenu.png" alt="logo">
+        <ul class="top-menu-list" >
+            <li><a href="#">HOME</a></li>
+            <li id="top-menu-dropdown"><a href="#">RECIPES</a>
+                <ul id = "top-menu-in-list">
+                    <li><a href="#">RECOMMENDED</a></li>
+                    <li><a href="#">POPULAR</a></li>
+                    <li><a href="#">QUICK & EASY</a></li>
+                    <li><a href="#">HEALTHY</a></li>
+                    <li><a href="#">NEWEST</a></li>
+                </ul>
+
+            </li>
+            <li><a href="#">PHOTO GALLERIES</a></li>
+            <li><a href="#">VIDEOS</a></li>
+            <li><a href="#">ALL CATEGORIES</a></li>
+
+        </ul>
+        <div class = "top-menu-search" >
+            <input type="text" placeholder="Search..">
+        </div>
+
+    </div>
+    -->
+
+    <header id="header-top">
+        <div class="header-content">
+            <a href="#"><div class="header-logo"><img src="images/Lemon_topmenu.png" alt="LEMON"></div></a>
+            <div class="header-hrefs">
+                <a class="header-link" href="#">HOME</a>
+                <div class="header-link">
+                    <div class="header-link-dropdown">
+                        <a href="#">RECOMMENDED</a>
+                        <a href="#">POPULAR</a>
+                        <a href="#">QUICK & EASY</a>
+                        <a href="#">HEALTHY</a>
+                        <a href="#">NEWEST</a>
+                    </div>
+                    <span>RECIPES</span>
+
+                </div>
+                <a class="header-link" href="#">PHOTO GALLERIES</a>
+                <a class="header-link" href="#">VIDEOS</a>
+                <a class="header-link" href="#">ALL CATEGORIES</a>
+            </div>
+            <div class="header-search-box">
+                <i class="fa fa-search"></i>
+                <input class="header-search-input" type="text" placeholder="FIND A RECIPE"><br>
+            </div>
+        </div>
+    </header>
+
+
+
     <div class="error-404" >
         <div class="error-404-heading" >
             <p>404</p>
@@ -31,7 +87,7 @@
 
         </div>
         <div class="error-404-button">
-            <button>BACK</button>
+            <button id="error-404-button-text">BACK</button>
         </div>
 
     </div>
@@ -45,6 +101,83 @@
 
             #delicious   #eating   #food</p>
 
+    </div>
+
+    <!--  black header all the way down -->
+    <footer id ="down-footer">
+        <div id="main-string">
+            <a href="#"><div id="logo"><img src="/images/logo_white.png" alt="LEMON"></div></a>
+            <div class="hrefs">
+                <a href="#">HOME</a>
+                <a href="#">RECIPES</a>
+                <a href="#">PHOTO GALLERIES</a>
+                <a href="#">VIDEOS</a>
+                <a href="#">ALL CATEGORIES</a>
+            </div>
+            <div class="copyrights">
+                <i class="fa fa-copyright"></i>
+                2016-2017 LEMON. All RIGHT RESERVED
+            </div>
+        </div>
+        <div id="icons">
+            <a href="https://google.com"><i class="fa-brands fa-google-plus-g"></i></a>&nbsp&nbsp
+            <a href="https://twitter.com"><i class="fa-brands fa-twitter"></i></a>&nbsp&nbsp
+            <a href="https://facebook.com"><i class="fa-brands fa-facebook-f"></i></a>&nbsp&nbsp
+            <a href="https://pinterest.com"><i class="fa-brands fa-pinterest"></i></a>
+        </div>
+    </footer>
+
+    <!-- ryad kakikh-to neprimechatelnych kartinok (c) dimonlimon-->
+    <div class="recipe-preview-parent">
+        <div class="recipe-preview">
+            <div class="recipe-preview-image">
+                <img src="images/redis.png">
+            </div>
+            <div class="recipe-preview-text-title">
+                Raspberry & Cream Frozen Yogurt Pie
+            </div>
+            <div class="recipe-preview-text-info">
+                <i class="fa-regular fa-clock"></i>
+                35 mins |
+                <i class="fa-regular fa-comment"></i>
+                7
+                <i class="fa-regular fa-eye"></i>
+                14
+            </div>
+        </div>
+        <div class="recipe-preview">
+            <div class="recipe-preview-image">
+                <img src="images/pasta.png">
+            </div>
+            <div class="recipe-preview-text-title">
+                Giant Ice Cream Sandwich
+            </div>
+            <div class="recipe-preview-text-info">
+                <i class="fa-regular fa-clock"></i>
+                20 mins |
+                <i class="fa-regular fa-comment"></i>
+                4
+                <i class="fa-regular fa-eye"></i>
+                256
+            </div>
+        </div>
+        <div class="recipe-preview">
+            <div class="recipe-preview-image">
+                <img src="images/pelmeni.png">
+            </div>
+            <div class="recipe-preview-text-title">
+                Dark Chocolate Crunch Ice Cream
+                Sandwich Cake
+            </div>
+            <div class="recipe-preview-text-info">
+                <i class="fa-regular fa-clock"></i>
+                15 mins |
+                <i class="fa-regular fa-comment"></i>
+                4
+                <i class="fa-regular fa-eye"></i>
+                167
+            </div>
+        </div>
     </div>
 
 
@@ -76,6 +209,11 @@
             Thank you!</p>
         <img src="images/Signature.png" alt="Lara Croft" id="sign">
     </div>
+
+
+
+
+
 
 </body>
 
