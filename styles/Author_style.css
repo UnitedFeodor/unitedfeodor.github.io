@@ -945,7 +945,7 @@ div.target-title {
 .round-pink {
   width: 30px;
   height: 54px;
-  background-image: url(../images/pink_duga.png);
+  background-image: url(/images/pink_duga.png);
   position: absolute;
   left: 49px;
   top: 120px;
@@ -954,7 +954,7 @@ div.target-title {
 .round1 {
   width: 58px;
   height: 58px;
-  background-image: url(../images/grey.png);
+  background-image: url(/images/grey.png);
   margin-top: 17px;
   margin-left: 0px;
   
@@ -995,7 +995,7 @@ div.target-title {
 .round2 {
   width: 58px;
   height: 58px;
-  background-image: url(../images/grey.png);
+  background-image: url(/images/grey.png);
   margin-top: 61px;
   margin-left: 2px;
   
@@ -1004,7 +1004,7 @@ div.target-title {
 .round-green {
   width: 53px;
   height: 58px;
-  background-image: url(../images/green_duga.png);
+  background-image: url(/images/green_duga.png);
   position: absolute;
   left: 28px;
   top: 230px;
@@ -1044,7 +1044,7 @@ div.target-title {
 .round3 {
   width: 58px;
   height: 58px;
-  background-image: url(../images/grey.png);
+  background-image: url(/images/grey.png);
   margin-top: 61px;
   margin-left: 2px;
   
@@ -1053,7 +1053,7 @@ div.target-title {
 .round-bir {
   width: 58px;
   height: 30px;
-  background-image: url(../images/biruzovy_duga.png);
+  background-image: url(/images/biruzovy_duga.png);
   position: absolute;
   left: 22px;
   top: 390px;
