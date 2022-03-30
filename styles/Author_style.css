@@ -1633,11 +1633,14 @@ div.title-recipe {
 
 .recipe1-text {
     margin-left: 95px;
-    margin-top: 10px;
-    width: 191px;
+    margin-top: 5px;
+    /*width: 191px;*/
     height: 49px;
     font-size: 16px;
     font-family: 'Josefin Sans', serif;
+    line-height: 16px;
+    font-weight: 600;
+    letter-spacing: -0.025em;
 }
 
 .recipe2 {
