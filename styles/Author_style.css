@@ -46,7 +46,7 @@
     background-color: #ffffff;
     box-shadow: 0 0 13px 0 rgba(0,0,0,0.15);
     left: 754px;
-    top: 2298px;
+    top: 1170px;
     position: absolute;
 }
 
@@ -141,7 +141,7 @@
     display: flex;
     position: absolute;
     left: 153px;
-    top: 737px;
+    top: 209px;
     width: 1120px;
     height: 438px;
     background-image: url("../images/HeroFood.png");
@@ -210,7 +210,7 @@
     height: 350px;
     position: absolute;
     left: 201px;
-    top: 2894px;
+    top: 2366px;
     box-shadow: 0 0 13px 0 rgba(0,0,0,0.15);
     background-color: white;
 }
@@ -282,7 +282,7 @@
     background-color: white;
     position: absolute;
     left: 586px;
-    top: 3576px;
+    top: 3048px;
     box-shadow: 0 0 13px 0 rgba(0,0,0,0.15);
 }
 
@@ -344,7 +344,7 @@
 
     box-shadow: 0 0 13px 0 rgba(0,0,0,0.15);
     left: 153px;
-    top: 2302px;
+    top: 1774px;
     position: absolute;
     background-image: url(/images/Plate.png);
     background-position: center;
@@ -468,7 +468,7 @@
     height: 160px;
     background-color: #ffffff;
     left: 568px;
-    top: 3379px;
+    top: 2851px;
     position: absolute;
 }
 #hashtags-heading {
@@ -524,7 +524,7 @@
 .top-menu {
 
     left:151px;
-    top:528px;
+    top: 0;
     width: 1120px;
     height: 123px;
     box-shadow: 0 0 13px rgba(11, 12, 12, 0.15);
@@ -627,7 +627,7 @@ header{
 #header-top {
     position: absolute;
     left:151px;
-    top:528px;
+    top:0;
 }
 .header-content{
     display: flex;
@@ -767,7 +767,7 @@ footer{
 }
 #down-footer {
     position: absolute;
-    top: 5985px;
+    top: 5457px;
     left: 152px;
 }
 footer #main-string{
@@ -840,7 +840,7 @@ footer #icons a:hover{
 .recipe-preview-parent {
 
     left: 152px;
-    top:1260px;
+    top:732px;
     position: absolute;
     width: 1120px;
     height: 373px;
@@ -962,7 +962,7 @@ div.banana-parent {
 	/*border: 1px solid black;*/
     position: absolute;
     left: 153px;
-    top: 1724px;
+    top: 1196px;
     width: 1120px;
     height: 438px;
 }
@@ -1117,7 +1117,7 @@ div.target-parent {
     /*border: 1px solid black;*/
     position: absolute;
     left: 153px;
-    top: 3290px;
+    top: 2762px;
     width: 290px;
     height: 472px;
     background-color: white; 
@@ -1323,7 +1323,7 @@ div.target-title {
 div.Timeline-parent {
     position: absolute;
     left: 934px;
-    top: 3291px;
+    top: 2763px;
     width: 290px;
     height: 472px;
     background-color: white; 
@@ -1490,7 +1490,7 @@ div.Timeline-title {
 div.recipe-parent {
     position: absolute;
     left: 568px;
-    top: 2870px;
+    top: 2342px;
     width: 290px;
     height: 472px;
     background-color: white; 
@@ -1909,7 +1909,7 @@ div.title-recipe {
     background-color: #ffffff;
     box-shadow: 0 0 13px 0 rgba(0,0,0,0.15);
     left: 340px;
-    top: 4044px;
+    top: 3516px;
     position: absolute;
 }
 
@@ -2085,7 +2085,7 @@ div.title-recipe {
     background-color: #ffffff;
     box-shadow: 0 0 13px 0 rgba(0,0,0,0.15);
     left: 755px;
-    top: 4044px;
+    top: 3516px;
     position: absolute;
 }
 
@@ -2244,7 +2244,7 @@ div.title-recipe {
     background-color: #ffffff;
     box-shadow: 0 0 13px 0 rgba(0,0,0,0.15);
     left: 934px;
-    top: 2894px;
+    top: 2366px;
     position: absolute;
 }
 
@@ -2354,7 +2354,7 @@ div.title-recipe {
     background-color: #ffffff;
     box-shadow: 0 0 13px 0 rgba(0,0,0,0.15);
     left: 283px;
-    top: 4938px;
+    top: 3870px;
     position: absolute;
 }
 
