@@ -468,7 +468,7 @@
     height: 160px;
     background-color: #ffffff;
     left: 568px;
-    top: 2851px;
+    top: 2841px;
     position: absolute;
 }
 #hashtags-heading {
@@ -767,7 +767,7 @@ footer{
 }
 #down-footer {
     position: absolute;
-    top: 5457px;
+    top: 5403px;
     left: 152px;
 }
 footer #main-string{
@@ -1119,7 +1119,7 @@ div.target-parent {
     /*border: 1px solid black;*/
     position: absolute;
     left: 153px;
-    top: 2762px;
+    top: 2763px;
     width: 290px;
     height: 472px;
     background-color: white;
@@ -1494,7 +1494,7 @@ div.Timeline-title {
 div.recipe-parent {
     position: absolute;
     left: 568px;
-    top: 2342px;
+    top: 2366px;
     width: 290px;
     height: 472px;
     background-color: white; 
@@ -2250,7 +2250,7 @@ div.title-recipe {
     background-color: #ffffff;
     box-shadow: 0 0 13px 0 rgba(0,0,0,0.15);
     left: 934px;
-    top: 2366px;
+    top: 2359px;
     position: absolute;
 }
 
@@ -2360,7 +2360,7 @@ div.title-recipe {
     background-color: #ffffff;
     box-shadow: 0 0 13px 0 rgba(0,0,0,0.15);
     left: 283px;
-    top: 3870px;
+    top: 4410px;
     position: absolute;
 }
 
