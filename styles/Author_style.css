@@ -828,7 +828,7 @@ footer #icons a:hover{
     color: white;
 }
 
-.fa-facebook-f{
+footer .fa-facebook-f{
     font-size: 14px;
 }
 
@@ -2235,33 +2235,33 @@ div.title-recipe {
 
 /*____________________________*/
 
-.fa-brands.fa-facebook-f{
+.signin, .login .fa-brands.fa-facebook-f{
     left: 137px;
     color: #555555;
     position: absolute;
 }
 
-.fa-brands.fa-google-plus-g{
+.signin, .login .fa-brands.fa-google-plus-g{
     left: 171px;
     color: #555555;
     position: absolute;
 }
 
-.fa-regular.fa-clock{
+.coffee .fa-regular.fa-clock{
     top: 212px;
     left: 131px;
     color: #555555;
     position: absolute;
 }
 
-.fa-regular.fa-comment{
+.coffee .fa-regular.fa-comment{
     top: 212px;
     left: 190px;
     color: #555555;
     position: absolute;
 }
 
-.fa-regular.fa-eye{
+.coffee .fa-regular.fa-eye{
     top: 212px;
     left: 232px;
     color: #555555;
