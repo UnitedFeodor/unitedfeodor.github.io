@@ -12,6 +12,11 @@
     <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital@0;1&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@700&display=swap" rel="stylesheet">
+    <!--Google fonts: Playfair Display-->
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@900&display=swap" rel="stylesheet">
+    <!--Google fonts: Open Sans-->
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
     <!--CSS files (start with "styles/")-->
     <link href="styles/Author_style.css" rel="stylesheet">
 </head>
@@ -208,33 +213,156 @@
     
     <!-- Author -->
     <div class="Author">
-        <p id="heading">Author</p>
-        <hr id="up-line">
+        <h5 class="Header5-JosSans" id="Author-Header">Author</h5>
+        <hr class="Line-Delimiter">
         <div class="Author-info">
             <div>
-                <img src="images/Karen.png" alt="Karen's avatar" id="woman">
+                <img src="images/Karen.png" alt="Karen's avatar" id="Karen">
             </div>
             <div>
-                <p id="name">Karen Gray</p>
-                <p id="country">United States</p>
-                <p class="icons">
+                <p id="Name">Karen Gray</p>
+                <p id="Country">United States</p>
+                <p class="Icons">
                     <a href="https://accounts.google.com/signin/v2/identifier?service=accountsettings&continue=https%3A%2F%2Fmyaccount.google.com%3Futm_source%3Daccount-marketing-page%26utm_medium%3Dgo-to-account-button&flowName=GlifWebSignIn&flowEntry=ServiceLogin"><i class="fa-brands fa-google-plus-g"></i></a>
                     <a href="https://twitter.com/i/flow/login"><i class="fa-brands fa-twitter"></i></a>
                     <a href="https://ru-ru.facebook.com/login/?privacy_mutation_token=eyJ0eXBlIjowLCJjcmVhdGlvbl90aW1lIjoxNjQ3Nzg2NzE2LCJjYWxsc2l0ZV9pZCI6MzgxMjI5MDc5NTc1OTQ2fQ%3D%3D"><i class="fa-brands fa-facebook-f"></i></a>
                     <a href="https://www.pinterest.ru/login/"><i class="fa-brands fa-pinterest"></i></a>
                 </p>
-                <hr id="down-line">
+                <hr class="Line-Delimiter">
             </div>
         </div>
-        <p id="about-header">About Lemon</p>
-        <p id="content">Over the fifteen-year life span of Food.com, we’ve learned that – in addition to eating – sharing is
+        <h5 class="Header5-JosSans" id="About-Header">About Lemon</h5>
+        <p id="Content">Over the fifteen-year life span of Food.com, we’ve learned that – in addition to eating – sharing is
             what you do best. And thanks to the 20 million of you who come here each month, we now have 500,000
             recipes to show for it, more than anywhere else in the digital universe. We also have tons crazy-tempting
             photos, troves of recipe reviews and more than 2 million Facebook likes. That’s a heck of a lot of Food.
             Thank you!</p>
-        <img src="images/Signature.png" alt="Lara Croft" id="sign">
+        <img src="images/Signature.png" alt="Lara Croft" id="Sign">
+    </div>
+	
+	
+    <!--Hero Page-->
+    <div class="Hero-Page">
+        <div style="width: 444px">
+            <a href="#" id="Hero-Logo"><img src="images/Logo.png" alt="'Lemon' Logo"></a>
+            <h4 id="Hero-Title">Bananas Foster Ice Cream Cake</h4>
+            <p id="Hero-Text">If you're looking for decadence, look no further — you've found the Holy Grail of
+                desserts. Honestly, this cake makes us wonder why Bananas Foster hasn't always
+                been served on top of ice cream cake.</p>
+            <button id="Hero-GetRecipe">GET IT RECIPE</button>
+        </div>
+        <div style="display: flex; margin-left: 582px">
+            <input type="radio" class="Custom-Radio" name="Slider">
+            <input type="radio" class="Custom-Radio" name="Slider">
+            <input type="radio" class="Custom-Radio" name="Slider" checked>
+            <input type="radio" class="Custom-Radio" name="Slider">
+            <input type="radio" class="Custom-Radio" name="Slider">
+        </div>
+    </div>
+	
+	
+    <!--Recipe-Blog-->
+    <div class="Recipe-Blog">
+        <h4 id="Recipe-Header">Chi-Chi or Chichi</h4>
+        <hr class="Line-Delimiter">
+        <div style="display: flex; margin: 10px 0 0 24px">
+            <div>
+                <img src="images/Someone.png" alt="who is this">
+            </div>
+            <div>
+                <p id="Recipe-By">Recipe by</p>
+                <p id="Bold-Toppings">Smuckersreg Toppings</p>
+                <p id="Recipe-Signature">
+                    <i class="fa-regular fa-clock"></i>
+                    15mins |
+                     <i class="fa-regular fa-comment"></i>
+                    12
+                     <i class="fa-solid fa-eye"></i>
+                    37
+                </p>
+
+            </div>
+        </div>
+        <div class="Under-Panel">
+            <input type="radio" class="Custom-Radio" name="Slider-blog" style="margin-left: 111px">
+            <input type="radio" class="Custom-Radio" name="Slider-blog">
+            <input type="radio" class="Custom-Radio" name="Slider-blog" checked>
+            <input type="radio" class="Custom-Radio" name="Slider-blog">
+            <input type="radio" class="Custom-Radio" name="Slider-blog">
+        </div>
+    </div>
+	
+	
+    <!--Calendar-->
+    <div class="Calendar">
+        <h5 class="Header5-JosSans">Calendar</h5>
+        <hr class="Line-Delimiter">
+        <p style="margin: 22px 0 0 31px;">
+            <i class="fa-solid fa-chevron-left fa-2xs"></i>
+            <span id="Month">April 2022</span>
+            <i class="fa-solid fa-chevron-right fa-2xs"></i>
+        </p>
+        <table style="margin: 31px 0 0 18px">
+            <tr style="height: 14px">
+                <td class="Table-Header">Su</td>
+                <td class="Table-Header">Mo</td>
+                <td class="Table-Header">Tu</td>
+                <td class="Table-Header">We</td>
+                <td class="Table-Header">Th</td>
+                <td class="Table-Header">Fr</td>
+                <td class="Table-Header">Sa</td>
+            </tr>
+        </table>
+        <table style="margin: 12px 0 0 16px; height: 170px">
+            <tr style="height: 14px">
+                <td class="Table-Dates" style="color: #9f9f9f">28</td>
+                <td class="Table-Dates" style="color: #9f9f9f">29</td>
+                <td class="Table-Dates" style="color: #9f9f9f">30</td>
+                <td class="Table-Dates" style="color: #9f9f9f">31</td>
+                <td class="Table-Dates">1</td>
+                <td class="Table-Dates">2</td>
+                <td class="Table-Dates">3</td>
+            </tr>
+            <tr style="height: 14px">
+                <td class="Table-Dates">4</td>
+                <td class="Table-Dates">5</td>
+                <td class="Table-Dates">6</td>
+                <td class="Table-Dates">7</td>
+                <td class="Table-Dates">8</td>
+                <td class="Table-Dates">9</td>
+                <td class="Table-Dates">10</td>
+            </tr>
+            <tr style="height: 14px">
+                <td class="Table-Dates">11</td>
+                <td class="Table-Dates">12</td>
+                <td class="Table-Dates">13</td>
+                <td class="Table-Dates">14</td>
+                <td class="Table-Dates">15</td>
+                <td class="Table-Dates">16</td>
+                <td class="Table-Dates">17</td>
+            </tr>
+            <tr style="height: 14px">
+                <td class="Table-Dates">18</td>
+                <td class="Table-Dates">19</td>
+                <td class="Table-Dates">20</td>
+                <td class="Table-Dates">21</td>
+                <td class="Table-Dates">22</td>
+                <td class="Table-Dates">23</td>
+                <td class="Table-Dates">24</td>
+            </tr>
+            <tr style="height: 14px">
+                <td class="Table-Dates">25</td>
+                <td class="Table-Dates">26</td>
+                <td class="Table-Dates">27</td>
+                <td class="Table-Dates">28</td>
+                <td class="Table-Dates">29</td>
+                <td class="Table-Dates">30</td>
+                <td class="Table-Dates" style="color: #9f9f9f">1</td>
+            </tr>
+        </table>
     </div>
 
+	
 <!--TARGET DIAGRAMS-->
     <div class="target-parent">
     	<div class="target">
