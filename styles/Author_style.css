@@ -1652,7 +1652,7 @@ div.title-recipe {
 .recipe2-picture {
     background-image: url(/images/salad2.png);
     width: 169px;
-    height: 112px;
+    height: 52px;
 }
 
 .by2 {
@@ -1689,9 +1689,8 @@ div.title-recipe {
 .recipe3-picture {
     background-image: url(/images/salad3.png);
     width: 109px;
-    height: 81px;
+    height: 52px;
     margin-left: 20px;
-    margin-top: -40px;
 }
 
 .by3 {
