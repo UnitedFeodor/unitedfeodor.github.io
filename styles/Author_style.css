@@ -2216,13 +2216,13 @@ div.title-recipe {
 
 /*____________________________*/
 
-.signin, .login .fa-brands.fa-facebook-f{
+.signin .fa-brands.fa-facebook-f, .login .fa-brands.fa-facebook-f{
     left: 137px;
     color: #555555;
     position: absolute;
 }
 
-.signin, .login .fa-brands.fa-google-plus-g{
+.signin .fa-brands.fa-google-plus-g, .login .fa-brands.fa-google-plus-g{
     left: 171px;
     color: #555555;
     position: absolute;
