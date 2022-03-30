@@ -1634,7 +1634,6 @@ div.title-recipe {
 .recipe1-text {
     margin-left: 95px;
     margin-top: 5px;
-    /*width: 191px;*/
     height: 49px;
     font-size: 16px;
     font-family: 'Josefin Sans', serif;
@@ -1645,7 +1644,8 @@ div.title-recipe {
 
 .recipe2 {
     margin-left: 0px;
-    margin-top: 20px;
+    margin-top: 34px;
+    height: 52px;
 
 }
 
@@ -1671,17 +1671,19 @@ div.title-recipe {
 
 .recipe2-text {
     margin-left: 83px;
-    margin-top: 10px;
-    width: 191px;
-    height: 69px;
+    margin-top: 6px;
+    height: 33px;
     font-size: 16px;
     font-family: 'Josefin Sans', serif;
+    line-height: 16px;
+    font-weight: 600;
+    letter-spacing: -0.025em;
 }
 
 .recipe3 {
     margin-left: 0px;
-    margin-top: 20px;
-
+    margin-top: 37px;
+    height: 52px;
 }
 
 .recipe3-picture {
@@ -1708,11 +1710,13 @@ div.title-recipe {
 
 .recipe3-text {
     margin-left: 83px;
-    margin-top: 10px;
-    width: 191px;
-    height: 69px;
+    margin-top: 6px;
+    height: 33px;
     font-size: 16px;
     font-family: 'Josefin Sans', serif;
+    line-height: 16px;
+    font-weight: 600;
+    letter-spacing: -0.025em;
 }
 
 .viewmore-button {
@@ -1728,6 +1732,7 @@ div.title-recipe {
     font-size: 12px;
     font-weight: 300;
     margin-left: 145px;
+    margin-top: 29px;
 }
 
 .viewmore-button button:hover {
