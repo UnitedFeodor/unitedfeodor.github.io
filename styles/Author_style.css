@@ -1506,23 +1506,16 @@ div.recipe-parent {
     left: 586px;
     top: 2366px;
     width: 290px;
-    height: 428px;
+    height: 472px;
     background-color: white; 
     box-shadow: 0 0 13px 0 rgba(0,0,0,0.15);
 }
 
 div.title-recipe {
     /* border: 1px solid blue; */
-    /*font-size: 16px;*/
+    font-size: 16px;
     margin-top: 27px;
     margin-left: 20px;
-    font-size: 20px;
-    font-weight: 400;
-    letter-spacing: -0.025em;
-    font-style: italic;
-    height: 17px;
-    line-height: 1.2;
-    letter-spacing: -0.025em;
 }
 
 .icons3 {
@@ -1561,14 +1554,14 @@ div.title-recipe {
 
 .easy-title {
     font-family: 'Josefin Sans bold', serif;
-    font-size: 12px;
+    font-size: 14px;
     color: #000000;
     opacity: 0.8;
 }
 
 .easy-title:hover {
     font-family: 'Josefin Sans bold', serif;
-    font-size: 12px;
+    font-size: 14px;
     color: #000000;
     font-weight: bold;
 }
@@ -1576,14 +1569,14 @@ div.title-recipe {
 .middle-title {
     margin-left: 25px;
     font-family: 'Josefin Sans bold', serif;
-    font-size: 12px;
+    font-size: 14px;
     color: #000000;
     opacity: 0.8;
 }
 
 .middle-title:hover {
     font-family: 'Josefin Sans bold', serif;
-    font-size: 12px;
+    font-size: 14px;
     color: #000000;
     font-weight: bold;
 }
@@ -1592,23 +1585,21 @@ div.title-recipe {
 .long-title {
     margin-left: 25px;
     font-family: 'Josefin Sans bold', serif;
-    font-size: 12px;
+    font-size: 14px;
     color: #000000;
     opacity: 0.8;
 }
 
 .long-title:hover {
     font-family: 'Josefin Sans bold', serif;
-    font-size: 12px;
+    font-size: 14px;
     color: #000000;
     font-weight: bold;
 }
 
 .recipe1 {
     margin-left: -13px;
-    margin-top: 30px;
-    height: 67px;
-
+    margin-top: 20px;
 }
 
 .recipe1-picture {
@@ -1633,26 +1624,22 @@ div.title-recipe {
 
 .recipe1-text {
     margin-left: 95px;
-    margin-top: 5px;
+    margin-top: 10px;
     height: 49px;
     font-size: 16px;
+    width: 191px;
     font-family: 'Josefin Sans', serif;
-    line-height: 16px;
-    font-weight: 600;
-    letter-spacing: -0.025em;
 }
 
 .recipe2 {
     margin-left: 0px;
-    margin-top: 34px;
-    height: 52px;
-
+    margin-top: 20px;
 }
 
 .recipe2-picture {
     background-image: url(/images/salad2.png);
     width: 169px;
-    height: 52px;
+    height: 112px;
 }
 
 .by2 {
@@ -1671,26 +1658,24 @@ div.title-recipe {
 
 .recipe2-text {
     margin-left: 83px;
-    margin-top: 6px;
-    height: 33px;
+    margin-top: 10px;
+    height: 69px;
+    width: 191px;
     font-size: 16px;
     font-family: 'Josefin Sans', serif;
-    line-height: 16px;
-    font-weight: 600;
-    letter-spacing: -0.025em;
 }
 
 .recipe3 {
     margin-left: 0px;
-    margin-top: 37px;
-    height: 52px;
+    margin-top: 20px;
 }
 
 .recipe3-picture {
     background-image: url(/images/salad3.png);
     width: 109px;
-    height: 52px;
+    height: 81px;
     margin-left: 20px;
+    margin-top: -40px;
 }
 
 .by3 {
@@ -1709,13 +1694,10 @@ div.title-recipe {
 
 .recipe3-text {
     margin-left: 83px;
-    margin-top: 6px;
-    height: 33px;
+    margin-top: 10px;
+    height: 69px;
     font-size: 16px;
     font-family: 'Josefin Sans', serif;
-    line-height: 16px;
-    font-weight: 600;
-    letter-spacing: -0.025em;
 }
 
 .viewmore-button {
@@ -1731,7 +1713,6 @@ div.title-recipe {
     font-size: 12px;
     font-weight: 300;
     margin-left: 145px;
-    margin-top: 29px;
 }
 
 .viewmore-button button:hover {
