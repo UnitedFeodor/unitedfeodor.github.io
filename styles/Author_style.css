@@ -467,7 +467,7 @@
     width: 290px;
     height: 160px;
     background-color: #ffffff;
-    left: 568px;
+    left: 586px;
     top: 2841px;
     position: absolute;
 }
@@ -1118,7 +1118,7 @@ div.recipe-directions {
 div.target-parent {
     /*border: 1px solid black;*/
     position: absolute;
-    left: 153px;
+    left: 201px;
     top: 2763px;
     width: 290px;
     height: 472px;
@@ -1503,7 +1503,7 @@ div.Timeline-title {
 
 div.recipe-parent {
     position: absolute;
-    left: 568px;
+    left: 586px;
     top: 2366px;
     width: 290px;
     height: 428px;
