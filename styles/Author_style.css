@@ -1,3 +1,45 @@
+/*====================
+    Common elements
+====================*/
+
+/* Horizontal header delimiter */
+.Line-Delimiter{
+    height: 2px;
+    opacity: 0.2;
+    background-color: rgba(85, 85, 85, 1);
+}
+
+/* Header-5 */
+.Header5-JosSans{
+    font-size: 20px;
+    font-weight: 400;
+    font-style: italic;
+    height: 17px;
+    line-height: 1.2;
+    letter-spacing: -0.025em;
+}
+
+/* Slide buttons */
+.Custom-Radio{
+    appearance: none;
+    border-radius: 50%;
+    width: 9px;
+    height: 9px;
+    border: none;
+    transition: 0.2s all linear;
+    margin: 407px 7px 0 0;
+    cursor: pointer;
+    background-color: white;
+}
+
+/* Checked Slide Buttons*/
+.Custom-Radio:checked{
+    background-color: black;
+}
+
+/*=============
+    Author
+=============*/
 .Author{
     width: 518px;
     height: 520px;
@@ -8,37 +50,33 @@
     position: absolute;
 }
 
-.Author > #up-line {
-    width: 444px;
-    height: 2px;
-    opacity: 0.2;
-    background-color: rgba(85, 85, 85, 1);
+.Author hr.Line-Delimiter{
     margin: 11px 0 0 33px;
+    width: 444px;
 }
 
-.Author > #heading{
-    font-size: 20px;
-    font-weight: 400;
-    font-style: italic;
-    height: 17px;
+.Author div hr.Line-Delimiter{
+    margin: 18px 0 0 19px;
+    width: 292px;
+}
+
+.Author #Author-Header{
     margin: 0 0 0 43px;
     padding-top: 20px;
-    line-height: 1.2;
-    letter-spacing: -0.025em;
 }
 
-.Author > .Author-info{
+.Author .Author-info{
     width: 440px;
     height: 130px;
     margin: 24px 46px 0 32px;
     display: flex;
 }
 
-.Author-info div > #woman{
+.Author-info #Karen{
     border: 1px solid #ffffff;
 }
 
-.Author-info div > #name{
+.Author-info #Name{
     font-size: 24px;
     line-height: 1.2;
     font-weight: 700;
@@ -47,7 +85,7 @@
     margin: 14px 0 0 19px;
 }
 
-.Author-info div > #country{
+.Author-info #Country{
     font-size: 16px;
     line-height: 1.2;
     font-weight: 300;
@@ -56,7 +94,7 @@
     margin: 6px 0 0 21px;
 }
 
-.Author-info div > .icons{
+.Author-info .Icons{
     margin: 12px 0 0 19px;
     opacity: 0.5;
     font-size: 16px;
@@ -67,33 +105,20 @@
     color: #555555;
 }
 
-.Author-info div > .icons a{
+.Author-info .Icons a{
     color: #555555;
+    transition: 0.2s all linear;
 }
 
-.Author-info div > .icons a:hover{
-    color: rgba(234,52,26,0.77);
+.Author-info .Icons a:hover{
+    color: rgba(234, 52, 26, 0.77);
 }
 
-.Author-info div > #down-line{
-    width: 292px;
-    height: 2px;
-    opacity: 0.2;
-    background-color: rgba(85, 85, 85, 1);
-    margin: 18px 0 0 19px;
-}
-
-.Author > #about-header{
+.Author #About-Header{
     margin: 1px 0 0 181px;
-    height: 17px;
-    font-size: 20px;
-    line-height: 1.2;
-    font-weight: 400;
-    font-style: italic;
-    letter-spacing: -0.025em;
 }
 
-.Author > #content{
+.Author #Content{
     font-size: 14px;
     line-height: 1.2;
     font-weight: 300;
@@ -104,11 +129,213 @@
     margin: 32px 0 0 182px;
 }
 
-.Author > #sign{
+.Author #Sign{
     margin-left: 314px;
     margin-top: 22px;
 }
 
+/*==============
+    Hero Page
+==============*/
+.Hero-Page{
+    display: flex;
+    position: absolute;
+    left: 153px;
+    top: 737px;
+    width: 1120px;
+    height: 438px;
+    background-image: url("../images/HeroFood.png");
+    background-size: cover;
+    box-shadow: 0 0 13px 0 rgba(0,0,0,0.15);
+}
+
+.Hero-Page #Hero-Logo{
+    margin: 49px 0 0 91px;
+    display: block;
+    width: 252px;
+    height: 105px;
+    transition: 0.3s all linear;
+}
+
+.Hero-Page #Hero-Logo:hover{
+    opacity: 0.5;
+}
+
+.Hero-Page #Hero-Title{
+    font-family: 'Playfair Display', serif;
+    font-size: 24px;
+    line-height: 1.2;
+    font-weight: 400;
+    letter-spacing: -0.025em;
+    color: #921026;
+    margin: 35px 0 0 89px;
+    height: 20px;
+}
+
+.Hero-Page #Hero-Text{
+    font-size: 16px;
+    line-height: 1.2;
+    font-weight: 300;
+    letter-spacing: -0.025em;
+    height: 90px;
+    width: 312px;
+    margin: 28px 0 0 91px ;
+}
+
+.Hero-Page #Hero-GetRecipe{
+    font-size: 12px;
+    line-height: 1.2;
+    font-weight: 300;
+    letter-spacing: -0.025em;
+    padding: 9px 14px 9px 13px;
+    height: 30px;
+    background-color: white;
+    border: 1px solid #c2c2c2;
+    margin: 27px 0 0 91px ;
+    transition: 0.3s;
+}
+
+.Hero-Page #Hero-GetRecipe:hover{
+    background-color: #EA341AC4;
+    color: white;
+    cursor: pointer;
+    font-size: 13px;
+}
+
+/*=================
+    Recipe Blog
+=================*/
+.Recipe-Blog{
+    width: 290px;
+    height: 350px;
+    position: absolute;
+    left: 201px;
+    top: 2894px;
+    box-shadow: 0 0 13px 0 rgba(0,0,0,0.15);
+    background-color: white;
+}
+
+.Recipe-Blog #Recipe-Header{
+    font-family: 'Playfair Display', serif;
+    font-size: 22px;
+    line-height: 1.2;
+    font-weight: 900;
+    letter-spacing: -0.025em;
+    color: #055555;
+    margin: 0 0 0 45px;
+    padding-top: 27px;
+    height: 19px;
+}
+
+.Recipe-Blog hr.Line-Delimiter{
+    margin: 15px 0 0 16px;
+    width: 252px;
+}
+
+.Recipe-Blog #Recipe-By{
+    font-size: 16px;
+    line-height: 1.2;
+    font-weight: 300;
+    letter-spacing: -0.025em;
+    color: #000000;
+    margin: 7px 0 0 20px;
+}
+
+.Recipe-Blog #Bold-Toppings{
+    font-size: 16px;
+    line-height: 1.2;
+    font-weight: 700;
+    letter-spacing: -0.025em;
+    color: #000000;
+    margin: 3px 0 0 20px;
+}
+
+.Recipe-Blog #Recipe-Signature{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 12px;
+    line-height: 1.2;
+    font-weight: 300;
+    letter-spacing: -0.025em;
+    color: #555555;
+    margin: 3px 0 0 21px;
+}
+
+.Recipe-Blog .Under-Panel{
+    background-image: url("../images/Letscook.png");
+    background-size: cover;
+    width: 290px;
+    height: 205px;
+    display: flex;
+    margin-top: 14px;
+}
+
+.Recipe-Blog .Under-Panel .Custom-Radio{
+    margin-top: 186px;
+}
+
+/*===============
+    Calendar
+===============*/
+.Calendar{
+    width: 290px;
+    height: 368px;
+    background-color: white;
+    position: absolute;
+    left: 586px;
+    top: 3576px;
+    box-shadow: 0 0 13px 0 rgba(0,0,0,0.15);
+}
+
+.Calendar .Header5-JosSans{
+    margin: 0 0 0 17px;
+    padding-top: 26px;
+}
+
+.Calendar #Month{
+    font-size: 18px;
+    line-height: 1.2;
+    font-weight: 300;
+    letter-spacing: -0.025em;
+    font-style: italic;
+    margin: 0 65px 0 55px;
+}
+
+.Calendar hr.Line-Delimiter{
+    margin: 11px 0 0 17px;
+    width: 253px;
+}
+
+.Calendar .Table-Header{
+    font-size: 14px;
+    line-height: 1.2;
+    font-weight: 400;
+    text-decoration: underline;
+    letter-spacing: -0.025em;
+    padding-left: 15px;
+}
+
+.Calendar .Table-Dates{
+    font-size: 14px;
+    line-height: 1.2;
+    font-weight: 400;
+    letter-spacing: -0.025em;
+    padding-left: 17px;
+    transition: 0.1s all linear;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.Calendar td.Table-Dates:hover{
+    background-color: #EA341AC4;
+}
+
+.Calendar p i:hover{
+    font-size: 14px;
+    cursor: pointer;
+}
+
+/*====================
+=====================*/
 
 .error-404 {
     width: 518px;
