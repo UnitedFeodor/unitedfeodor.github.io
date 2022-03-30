@@ -1132,12 +1132,7 @@ div.target-title {
     /* border: 1px solid blue; */
     margin-top: 27px;
     margin-left: 20px;
-    font-size: 20px;
-    font-weight: 400;
-    font-style: italic;
-    height: 17px;
-    line-height: 1.2;
-    letter-spacing: -0.025em;
+    font-size: 16px;
 }
 
 .icons1 {
