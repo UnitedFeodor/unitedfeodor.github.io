@@ -849,6 +849,7 @@ footer #icons a:hover{
     align-items: flex-start;
     justify-content: center;
     display: flex;
+    box-shadow: 0 0 13px 0 rgba(0,0,0,0.15);
     /*
 
     margin-bottom: 87px;
@@ -965,6 +966,7 @@ div.banana-parent {
     top: 1196px;
     width: 1120px;
     height: 438px;
+    box-shadow: 0 0 13px 0 rgba(0,0,0,0.15);
 }
 
 div.banana-parent div.recipe-image {
@@ -1120,7 +1122,8 @@ div.target-parent {
     top: 2762px;
     width: 290px;
     height: 472px;
-    background-color: white; 
+    background-color: white;
+    box-shadow: 0 0 13px 0 rgba(0,0,0,0.15);
 }
 
 div.target-title {
@@ -1326,7 +1329,8 @@ div.Timeline-parent {
     top: 2763px;
     width: 290px;
     height: 472px;
-    background-color: white; 
+    background-color: white;
+    box-shadow: 0 0 13px 0 rgba(0,0,0,0.15);
 }
 
 div.Timeline-title {
@@ -1494,6 +1498,7 @@ div.recipe-parent {
     width: 290px;
     height: 472px;
     background-color: white; 
+    box-shadow: 0 0 13px 0 rgba(0,0,0,0.15);
 }
 
 div.title-recipe {
