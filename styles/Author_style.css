@@ -2000,10 +2000,10 @@ div.title-recipe {
 }
 
 .login-input3{
-    width: 8px;
-    height: 8px;
-    left: 32px;
-    top: 232px;
+    width: 12px;
+    height: 12px;
+    left: 30px;
+    top: 230px;
     border-radius: 2px 2px 2px 2px;
     box-shadow: 0 0 3px rgba(0,0,0,0.5);
     border: solid #212529 1px;
