@@ -1132,7 +1132,7 @@ div.target-title {
     /* border: 1px solid blue; */
     margin-top: 27px;
     margin-left: 20px;
-    font-size: 16px;
+    font-size: 17px;
 }
 
 .icons1 {
@@ -1339,9 +1339,8 @@ div.Timeline-title {
     color: #000000;
     margin-top: 27px;
     margin-left: 20px;
-    font-size: 20px;
+    font-size: 17px;
     font-weight: 400;
-    font-style: italic;
     height: 17px;
     line-height: 1.2;
     letter-spacing: -0.025em;
