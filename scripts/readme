@@ -1,0 +1,7 @@
+Не совать все скрипты в мой файл (как в css было)
+Вставка скрипта: 
+    <body>
+      ...
+      ...
+        <script src="scripts/INSERT_YOURS.js"></script>
+    </body
