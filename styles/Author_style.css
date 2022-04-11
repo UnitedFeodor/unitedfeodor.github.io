@@ -144,9 +144,9 @@
     top: 209px;
     width: 1120px;
     height: 438px;
-    background-image: url("../images/HeroFood.png");
     background-size: cover;
     box-shadow: 0 0 13px 0 rgba(0,0,0,0.15);
+    transition: ease-out 0.7s ;
 }
 
 .Hero-Page #Hero-Logo{
