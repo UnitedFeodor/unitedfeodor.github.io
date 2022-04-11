@@ -9,11 +9,11 @@ const radioBtn = document.getElementsByName("Slider"); // Array of Buttons
 /*==================================*/
 
 /*=========IMAGES==============*/
-images[0] = '/images/HeroFood1.png';
-images[1] = '/images/HeroFood2.png';
-images[2] = '/images/HeroFood3.png';
-images[3] = '/images/HeroFood4.png';
-images[4] = '/images/HeroFood5.png';
+images[0] = '../images/HeroFood1.png';
+images[1] = '../images/HeroFood2.png';
+images[2] = '../images/HeroFood3.png';
+images[3] = '../images/HeroFood4.png';
+images[4] = '../images/HeroFood5.png';
 /*=============================*/
 
 /*==========Set Event=============*/
