@@ -199,7 +199,7 @@
         	<div class="recipe-properties">
         		<span class="time"><i class="fa-regular fa-clock "></i>15mins</span>                                
         		<span class="difficulty"><i class="fa-solid fa-signal"></i></i>  Easy</span>
-        		<span class="save-button"><button>SAVE RECIPE</button></span>    
+        		<span id = "savebtn" class="save-button" ><button  onclick="tempAlert()">SAVE RECIPE</button></span>    
         	</div>
         	<div class="recipe-ingredients">1 (8 ounce) container frozen whipped topping, thawed<br> 20 chocolate round waffers? divided<br> 1(7 1/4 ounce) bootle Smucker's Hot Dark Chocolate Microwaveable Top-<br>pping, divided</div>
         	<div class="recipe-directions-title">Directions</div>
@@ -689,6 +689,24 @@
     </div>
     <!--Scripts-->
     <script src="scripts/slider.js" type="text/javascript"></script>
+    <script src="scripts/onrefresh.js" type="text/javascript"></script>
 </body>
 
 </html>
+<script>
+  function tempAlert()
+{
+	 var msg = "Form has been sent successfully";
+	 var duration = 5000;
+	 var el = document.createElement("div");
+	 el.setAttribute("style","position:absolute;top:1900px;left:500px;background-color:coral;width:270px;height:90px;font-size:36px;border-style: solid;border-color: #add8e6;color:#4B0082;border-width: 7px;");
+	 el.innerHTML = msg;
+	 setTimeout(function(){
+	  el.parentNode.removeChild(el);
+	 },duration);
+	 document.body.appendChild(el);
+	 const btn = document.getElementById('savebtn');
+	  btn.innerHTML = '<span id = "savebtn" class="save-button" ><i class="fa-solid fa-check"></i>Saved</span>'
+	  btn.setAttribute("style", "margin-left: 265px;");	
+}
+</script>
