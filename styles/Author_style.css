@@ -346,7 +346,7 @@
     left: 153px;
     top: 1770px;
     position: absolute;
-    background-image: url(/images/Plate.png);
+    background-image: url(../images/Plate.png);
     background-position: center;
     background-repeat: no-repeat;
 
@@ -768,9 +768,12 @@ footer{
     box-shadow: 0px 3px 7px 0px rgba(11,12,12,0.14);
 }
 #down-footer {
-    position: absolute;
+    /*position: absolute;
     top: 5403px;
+
     left: 152px;
+     */
+    margin-left: 152px;
 }
 footer #main-string{
     margin-top: 72px;
@@ -978,7 +981,7 @@ div.banana-parent div.recipe-image {
     top: 0px;
 	width: 520px;
 	height: 436px;
-	background-image: url(/images/banana.png);
+	background-image: url(../images/banana.png);
 	background-size: 520px 436px;
 }
 
@@ -1160,7 +1163,7 @@ div.target-title {
     height: 2px;
     opacity: 0.2;
     background-color: rgba(85, 85, 85, 1);
-    margin-left: : 0px;
+    margin-left:  0px;
     margin-right: 30px;
 }
 
@@ -1177,7 +1180,7 @@ div.target-title {
 .round-pink {
   width: 30px;
   height: 54px;
-  background-image: url(/images/pink_duga.png);
+  background-image: url(../images/pink_duga.png);
   position: absolute;
   left: 49px;
   top: 120px;
@@ -1186,7 +1189,7 @@ div.target-title {
 .round1 {
   width: 58px;
   height: 58px;
-  background-image: url(/images/grey.png);
+  background-image: url(../images/grey.png);
   margin-top: 17px;
   margin-left: 0px;
   
@@ -1227,7 +1230,7 @@ div.target-title {
 .round2 {
   width: 58px;
   height: 58px;
-  background-image: url(/images/grey.png);
+  background-image: url(../images/grey.png);
   margin-top: 61px;
   margin-left: 2px;
   
@@ -1236,7 +1239,7 @@ div.target-title {
 .round-green {
   width: 53px;
   height: 58px;
-  background-image: url(/images/green_duga.png);
+  background-image: url(../images/green_duga.png);
   position: absolute;
   left: 28px;
   top: 230px;
@@ -1276,7 +1279,7 @@ div.target-title {
 .round3 {
   width: 58px;
   height: 58px;
-  background-image: url(/images/grey.png);
+  background-image: url(../images/grey.png);
   margin-top: 61px;
   margin-left: 2px;
   
@@ -1285,7 +1288,7 @@ div.target-title {
 .round-bir {
   width: 58px;
   height: 30px;
-  background-image: url(/images/biruzovy_duga.png);
+  background-image: url(../images/biruzovy_duga.png);
   position: absolute;
   left: 22px;
   top: 390px;
@@ -1371,7 +1374,7 @@ div.Timeline-title {
     height: 2px;
     opacity: 0.2;
     background-color: rgba(85, 85, 85, 1);
-    margin-left: : 0px;
+    margin-left : 0px;
     margin-right: 30px;
 }
 
@@ -1415,7 +1418,7 @@ div.Timeline-title {
 .easy-diagram {
   width: 10px;
   height: 69px;
-  background-image: url(/images/Easy.png);
+  background-image: url(../images/Easy.png);
   position: absolute;
   left: 70px;
   top: 270px;
@@ -1425,7 +1428,7 @@ div.Timeline-title {
 .middle-diagram {
   width: 10px;
   height: 100px;
-  background-image: url(/images/Middle.png);
+  background-image: url(../images/Middle.png);
   position: absolute;
   left: 147px;
   top: 240px;
@@ -1434,7 +1437,7 @@ div.Timeline-title {
 .long-diagram {
   width: 10px;
   height: 132px;
-  background-image: url(/images/Long.png);
+  background-image: url(../images/Long.png);
   position: absolute;
   left: 227px;
   top: 205px;
@@ -1667,56 +1670,64 @@ div.Timeline-title {
     text-decoration: none;
 }
 
-.first-page:hover {
+#page1:hover {
     color: #629494;
 }
 
-.first-page {
+#page1 {
     text-decoration: none;
     color: black;
 }
 
-.second-page:hover {
+#current-page {
+    text-decoration: none;
+    color: black;
+}
+
+#current-page:hover {
+    color: #629494;
+}
+#page2:hover {
     color: #629494;
 }
 
-.second-page {
+#page2 {
     color: black;
     text-decoration: none;
 }
 
-.third-page:hover {
+#page3:hover {
     color: #629494;
 }
 
-.third-page {
+#page3 {
     color: black;
     text-decoration: none;
 }
 
-.fourth-page:hover {
+#page4:hover {
     color: #629494;
 }
 
-.fourth-page {
+#page4 {
     color: black;
     text-decoration: none;
 }
 
-.fifth-page:hover {
+#page5:hover {
     color: #629494;
 }
 
-.fifth-page {
+#page5 {
     color: black;
     text-decoration: none;
 }
 
-.sixth-page:hover {
+#page6:hover {
     color: #629494;
 }
 
-.sixth-page {
+#page6 {
     color: black;
     text-decoration: none;
 }
@@ -2580,10 +2591,400 @@ div.Timeline-title {
     position: absolute;
 }
 
-.comment-number-2{
+.comment-number-2 {
     font-size: 12px;
     font-weight: 400;
     left: 751px;
     font-family: 'Josefin Sans', sans-serif;
     position: absolute;
+}
+
+/* for comments */
+
+.div-comments{
+
+    /*margin-left: 131px;
+
+     */
+    width: 838px;
+    min-height: 761px;
+    background-color: #FFF;
+    width: 838px;
+    min-height: 762px;
+    background-color: #ffffff;
+    box-shadow: 0 0 13px 0 rgba(0,0,0,0.15);
+    left: 283px;
+    top: 4410px;
+    margin-left: 283px;
+    margin-top: 4410px;
+    /*
+    position: absolute;
+     */
+    /*margin-top: 47px;
+
+     */
+
+}
+
+.empty-space {
+    margin-top: 47px;
+    margin-bottom: 0;
+    position: absolute;
+}
+.div-comments-post{
+
+    /*margin-top: 125px;
+    margin-left: 0px;
+
+    margin-left: 130px;
+     */
+
+    left: 282px;
+    top: 4176px;
+    position: absolute;
+
+    justify-content: space-around;
+
+    height: 187px;
+    background-color: white;
+    width: 838px;
+}
+
+.div-comments-post #title{
+    width: 745px;
+    display: flex;
+    justify-content: space-between;
+    padding-top:  25px;
+    padding-left: 37px;
+    font-size: 24px;
+    font-family: 'Josefin Sans', sans-serif;
+    font-style: italic;
+
+
+}
+
+.div-comments-post #title #icons{
+    margin-top: 10px;
+    letter-spacing: 0.025em;
+    font-size: 16px;
+    font-style: italic;
+    font-weight: 400;
+}
+
+.div-comments-post #title #icons a{
+    text-decoration: none;
+    color: #000;
+}
+
+.div-comments-post #title #icons a:hover{
+    color: #921026;
+}
+
+.div-comments-post .form_for_comment{
+    margin-top: 14px;
+    width: 755px;
+    height: 90px;
+    background-color: rgb(246,246,246, 1);
+    padding-top: 0px;
+    margin-left: 40px;
+}
+
+.div-comments-post .form_for_comment div img{
+    padding-left: 18px;
+    padding-right: 66px;
+}
+
+.form_for_comment div {
+    padding-top: 13px;
+    margin: 0px;
+    display: flex;
+}
+
+.form_for_comment div{
+    vertical-align:middle;
+}
+
+.form_for_comment div .form_for_comment div{
+    margin-top: 11px;
+}
+
+.form_for_comment input[type="text"] {
+    background: white;
+    border: #dfdfdf 1px solid;
+    margin:0;
+    margin-right: 4px;
+    padding:0;
+    margin-top: 11px;
+    display:inline-block;
+    width: 495px;
+    height: 37px;
+    transition: 0.3s;
+}
+
+.form_for_comment input[type="submit"] {
+    color: #ffffff;
+    text-transform: uppercase;
+    font-size: 16px;
+
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: lighter;
+    border: black 1px solid;
+    height: 39px;
+    width: 85px;
+    margin:0;
+    padding:0;
+    margin-top: 11px;
+    display:inline-block;
+
+}
+
+.submit-button-enabled {
+    background: rgb(56, 56, 56, 1);
+    transition: .8s;
+
+    background-repeat: no-repeat;
+    background-position: bottom;
+    transition-timing-function: cubic-bezier(0.52, 1.64, 0.37, 0.66);
+    background-image: linear-gradient(0, white, white);
+    background-size: 0;
+}
+
+.submit-button-disabled {
+    background: rgb(158, 158, 158);
+    transition: 1.3s;
+
+    background-repeat: no-repeat;
+    background-position: bottom;
+    transition-timing-function: cubic-bezier(0.52, 1.64, 0.37, 0.66);
+    background-image: linear-gradient(0, white, white);
+    background-size: 0;
+}
+
+.form_for_comment input[type="submit"]:hover{
+    background-size: 100%;
+    color: black;
+
+}
+.page-selection{
+    width: 838px;
+    height: 92px;
+    background-color: white;
+    margin-top: 44px;
+    margin-left: 282px;
+    /*margin-left: 133px;
+    */
+
+
+    /*position: absolute;
+*/
+
+    left: 283px;
+    top: 5215px;
+    width: 839px;
+    height: 93px;
+    background-color: white;
+    box-shadow: 0 0 13px 0 rgba(0,0,0,0.15);
+}
+
+.bruh-help {
+    margin-top: 44px;
+    position: relative;
+    left: 283px;
+    top: 5215px;
+}
+.page-selection #flex-selection{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-right: 285px;
+    margin-left: 270px;
+
+    margin-top: 40px;
+
+}
+
+.page-selection a{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 18px;
+    line-height: 1.2;
+    font-weight: 300;
+    color: black;
+    text-decoration: none;
+}
+
+.page-selection #current-page a{
+    color: #629494;
+}
+
+.page-selection a:hover{
+    font-weight: 500;
+    text-decoration: underline;
+}
+
+
+/*
+TEXT COMMENTS AND STUFF
+ */
+
+.div-comments-title{
+    font-style: italic;
+    font-family: 'Josefin Sans', sans-serif;
+    margin-left: 38px;
+    margin-right: 54px;
+    font-size: 24px;
+    font-weight: 700;
+    margin-top: 20px;
+}
+
+
+.div-comments-block #last_comment_sh{
+    padding-bottom: 10px;
+    margin-top:-10px;
+    border-bottom: solid rgba(85,85,85,0.2) 2px;
+}
+
+.div-comments-block{
+    padding-top: 13px;
+    padding-left: 40px;
+    padding-right: 55px;
+    padding-bottom: 50px;
+}
+
+.div-comments-panel{
+    padding-left: 10px;
+    padding-top: 25px;
+    display: flex;
+    border-top: solid rgba(85,85,85,0.2) 2px;
+}
+
+.div-comments-panel > img{
+    margin-top: 5px;
+    width: 55px;
+    height: 55px;
+    border-radius: 50%;
+}
+
+.recipe-preview-image .sticker-img{
+    position: absolute;
+    float: left;
+    left: 250px;
+    top: 9px;
+    padding-top: 11px;
+    padding-left: 13px;
+    font-size: 30px;
+    font-weight: 400;
+    color: #555555;
+    background-color: white;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+.div-comments-panel > div{
+    display: flex;
+    padding-left: 23px;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.div-comments-text-postby{
+    font-size: 16px;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 300;
+    margin-bottom: 5px;
+}
+
+.div-comments-name{
+    display: inline-block;
+    font-size: 16px;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 700;
+    letter-spacing: -0.05em;
+}
+
+.div-comments-reply-button{
+    color: #629494;
+    font-size: 12px;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 800;
+    letter-spacing: -0.025em;
+    transition: 0.2s;
+    margin-left: 6px;
+    padding-top: 10px;
+}
+
+.div-comments-date{
+    margin-left: 2px;
+}
+
+.div-comments-reply-button:hover{
+    color: #a1f6f6;
+}
+
+.div-comments-date:hover{
+    color: #629494;
+}
+
+.div-comments-shares{
+    margin-top: 25px;
+    margin-left: 15px;
+    display: inline-block;
+    font-size: 12px;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 300;
+    transition: 0.3s;
+}
+
+.div-comments-shares:hover{
+    color: #a1f6f6;
+}
+
+
+.div-comments-text{
+    margin-top: 10px;
+    padding-left: 85px;
+    font-size: 16px;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 300;
+    letter-spacing: -0.030em;
+    margin-bottom: 10px;
+}
+
+.div-comments-text-more{
+    font-family: 'Josefin Sans', sans-serif;
+    margin-top: 25px;
+    opacity: 0.54;
+    letter-spacing: -0.025em;
+    font-weight: 300;
+    margin-left: 295px;
+    margin-bottom: 16px;
+}
+
+.div-comments-text-more a{
+    color:black;
+    text-decoration: none;
+}
+
+.div-comments-text-more a:hover{
+    color: brown;
+}
+
+
+.div-comments-text .recipe-preview-image{
+    margin-top: 15px;
+    margin-bottom: 10px;
+    position: relative;
+}
+
+.div-comments-text .recipe-preview-image:hover{
+    transform: none;
+}
+
+.div-comments-reply{
+    padding-top: 10px;
+    padding-left: 70px;
+}
+
+.div-comments-reply .div-comments-text{
+    font-weight: 400;
 }
