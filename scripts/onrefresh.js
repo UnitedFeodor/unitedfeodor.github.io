@@ -1,10 +1,11 @@
-if (sessionStorage.getItem("savebtn") == null)
+if (sessionStorage.getItem("savebtn") !== null)
 	{
-	  sessionStorage.setItem("savebtn", 1);
-	}
-	else
-	{
-		const btn = document.getElementById('savebtn');
-	  btn.innerHTML = '<span id = "savebtn" class="save-button" ><i class="fa-solid fa-check"></i>Saved</span>'
-	  btn.setAttribute("style", "margin-left: 265px;")
+		const btnSpan = document.getElementById('savebtn');
+		btnSpan.removeChild(btnSpan.firstChild);
+		btnSpan.setAttribute("style", "margin-left: 265px;");
+		const newBtnMsg = document.createTextNode("SAVED");
+		const newBtnIcon = document.createElement("i");
+		newBtnIcon.setAttribute("class", "fa-solid fa-check");
+		btnSpan.appendChild(newBtnIcon);
+		btnSpan.appendChild(newBtnMsg);
 	}
