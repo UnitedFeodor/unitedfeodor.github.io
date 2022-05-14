@@ -694,20 +694,25 @@
 
 </html>
 <script>
-  function tempAlert()
-{
-	 var msg = "Form has been sent successfully";
-	 var duration = 5000;
-	 var el = document.createElement("div");
-	 el.setAttribute("style","position:absolute;top:1280px;left:530px;background-color:coral;width:270px;height:90px;font-size:36px;border-style: solid;border-color: #add8e6;color:#4B0082;border-width: 7px;");
-	 el.innerHTML = msg;
-	 setTimeout(function(){
-	  el.parentNode.removeChild(el);
-	 },duration);
-	 document.body.appendChild(el);
-	 const btn = document.getElementById('savebtn');
-	  btn.innerHTML = '<span id = "savebtn" class="save-button" ><i class="fa-solid fa-check"></i>Saved</span>'
-	  btn.setAttribute("style", "margin-left: 265px;");
-	  sessionStorage.setItem("savebtn", 1);
-}
+  function tempAlert(){
+    const msg = document.createTextNode("Form has been sent successfully");
+    const duration = 5000;
+    const popup = document.createElement("div");
+    popup.setAttribute("style","position:absolute;top:1280px;left:530px;background-color:coral;width:270px;height:90px;font-size:30px;border-style: solid;border-color: #add8e6;color:#4B0082;border-width: 7px;");
+    popup.appendChild(msg);
+    setTimeout(function(){
+        popup.parentNode.removeChild(popup);
+    },duration);
+    document.body.appendChild(popup);
+
+    const btnSpan = document.getElementById('savebtn');
+    btnSpan.removeChild(btnSpan.firstChild);
+    btnSpan.setAttribute("style", "margin-left: 265px;");
+    const newBtnMsg = document.createTextNode("SAVED");
+    const newBtnIcon = document.createElement("i");
+    newBtnIcon.setAttribute("class", "fa-solid fa-check");
+    btnSpan.appendChild(newBtnIcon);
+    btnSpan.appendChild(newBtnMsg);
+    sessionStorage.setItem("savebtn", 1);
+  }
 </script>
