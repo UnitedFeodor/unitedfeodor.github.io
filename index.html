@@ -111,29 +111,7 @@
 
     </div>
 
-    <!--  black header all the way down -->
-    <footer id ="down-footer">
-        <div id="main-string">
-            <a href="#"><div id="logo"><img src="/images/logo_white.png" alt="LEMON"></div></a>
-            <div class="hrefs">
-                <a href="#">HOME</a>
-                <a href="#">RECIPES</a>
-                <a href="#">PHOTO GALLERIES</a>
-                <a href="#">VIDEOS</a>
-                <a href="#">ALL CATEGORIES</a>
-            </div>
-            <div class="copyrights">
-                <i class="fa fa-copyright"></i>
-                2016-2017 LEMON. All RIGHT RESERVED
-            </div>
-        </div>
-        <div id="icons">
-            <a href="https://google.com"><i class="fa-brands fa-google-plus-g"></i></a>&nbsp&nbsp
-            <a href="https://twitter.com"><i class="fa-brands fa-twitter"></i></a>&nbsp&nbsp
-            <a href="https://facebook.com"><i class="fa-brands fa-facebook-f"></i></a>&nbsp&nbsp
-            <a href="https://pinterest.com"><i class="fa-brands fa-pinterest"></i></a>
-        </div>
-    </footer>
+
 
     <!-- ryad kakikh-to neprimechatelnych kartinok (c) dimonlimon-->
     <div class="recipe-preview-parent">
@@ -551,7 +529,7 @@
         </div>
     </div>
 
-
+<!--
 <div class="post-a-comment" >
     <div class="post-a-comment-heading" >
         <span>Post a Comment</span>
@@ -559,159 +537,350 @@
     <div class="post-a-comment-facebook" >
         <span>Facebook    |    Twitter</span>
     </div>
-<!--    <div class="post-a-comment-twitter" >-->
-<!--        <span>Twitter</span>-->
-<!--    </div>-->
+
     <div>
         <img src="images/Smuckersreg.png" alt="Smuckersreg avatar" class="img-woman">
     </div>
     <div class="post-a-comment-field">
-        <input type="text" class="post-input">
+        <input id="comment-form" type="text" class="post-input">
     </div>
     <div class="post-a-comment-button">
-        <button>POST</button>
+        <button id="post-button"  class="submit-button-disabled">POST</button>
     </div>
 </div>
+-->
+    <div class="div-comments-post">
+        <div id="title">
+            <span>Post a Comment</span>
+            <div id="icons">
+                <a href="https://www.facebook.com/">Facebook</a>&nbsp&nbsp|&nbsp&nbsp<a href="https://twitter.com/">Twitter</a>
+            </div>
+        </div>
+        <div class="form_for_comment">
+            <div>
+                <img src="images/Smuckersreg.png">
+                <input id="comment-form" type="text" class="div-authentication-form-input" size="41">
+                <input id="post-button" type="submit" class="submit-button-disabled" disabled value="POST">
+            </div>
+        </div>
 
-<div class="coffee">
-    <div>
-        <img src="images/Coffee.png" alt="Coffee avatar" class="img-coffee-1">
     </div>
-    <div class="coffee-heading" >
-        <span>Popular Now</span>
+    <!--<div class="empty-space"></div> -->
+    <div class="div-comments" id="comments">
+        <div class="div-comments-title">
+            Comments
+        </div>
+        <div class="div-comments-block">
+            <div id="last-comment" class="div-comments-comment">
+                <div class="div-comments-panel">
+                    <img src="images/Smuckersreg.png">
+                    <div>
+                        <div>
+                            <div class="div-comments-text-postby">
+                                post by
+                            </div>
+                            <div>
+                                <div id="comment-name" class="div-comments-name">
+                                    Smuckersreg Toppings
+                                </div>
+                                <a href="#" class="div-comments-reply-button">
+                                    reply
+                                </a>
+                            </div>
+                            <div id="comment-date" class="div-comments-reply-button div-comments-date">
+                                6/10/2024
+                            </div>
+                        </div>
+                        <div>
+                            <div class="div-comments-shares">
+                                456
+                                <i class="fa-solid fa-share-nodes"></i>
+                            </div>
+                            <div class="div-comments-shares">
+                                15
+                                <i class="fa-regular fa-thumbs-up"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="div-comments-text">
+                    <div id="comment-image" class="recipe-preview-image">
+                        <img src="images/redis.png">
+                        <div class="sticker-img">
+                            <i class="fa fa-pinterest"></i>
+                        </div>
+                    </div>
+                    <div id="comment-text">
+                        Thanks for the recipe!
+                    </div>
+                </div>
+            </div>
+            <div class="div-comments-comment div-comments-reply">
+                <div class="div-comments-panel">
+                    <img src="images/Smuckersreg.png">
+                    <div>
+                        <div>
+                            <div class="div-comments-text-postby">
+                                post by
+                            </div>
+                            <div>
+                                <div class="div-comments-name">
+                                    Smuckersreg Toppings
+                                </div>
+                                <a href="#" class="div-comments-reply-button">
+                                    reply
+                                </a>
+                            </div>
+                            <div class="div-comments-reply-button div-comments-date">
+                                6/10/2024
+                            </div>
+                        </div>
+                        <div>
+                            <div class="div-comments-shares">
+                                456
+                                <i class="fa-solid fa-share-nodes"></i>
+                            </div>
+                            <div class="div-comments-shares">
+                                15
+                                <i class="fa-regular fa-thumbs-up"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="div-comments-text">
+                    Thanks for the recipe lorem ipsum bla bla bla  Thanks for the recipe lore
+                </div>
+                <div class="div-comments-text-more">
+                    <a href="#">24 more comments</a>
+                </div>
+            </div>
+            <div class="div-comments-comment" id="last_comment_sh">
+                <div class="div-comments-panel">
+                    <img src="images/Smuckersreg.png">
+                    <div>
+                        <div>
+                            <div class="div-comments-text-postby">
+                                post by
+                            </div>
+                            <div>
+                                <div class="div-comments-name">
+                                    Smuckersreg Toppings
+                                </div>
+                                <a href="#" class="div-comments-reply-button">
+                                    reply
+                                </a>
+                            </div>
+                            <div class="div-comments-reply-button div-comments-date">
+                                6/10/2024
+                            </div>
+                        </div>
+                        <div>
+                            <div class="div-comments-shares">
+                                456
+                                <i class="fa-solid fa-share-nodes"></i>
+                            </div>
+                            <div class="div-comments-shares">
+                                15
+                                <i class="fa-regular fa-thumbs-up"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="div-comments-text">
+                    Thanks for the recipe!
+                </div>
+            </div>
+        </div>
     </div>
-    <hr class="coffee-line">
-    <div class="coffee-name" >
-        <span>Vanilla Frozen Coffee</span>
+
+    <div class="page-selection">
+
+        <div id="flex-selection">
+
+            <div id="number"><a href="javascript:prevPage()">&#x3C;</a></div>
+            <div id="page1"><a href="javascript:changePage(1)">1</a></div>
+            <div id="current-page"><a href="javascript:changePage(2)">2</a></div>
+            <div id="page3"><a href="javascript:changePage(3)">3</a></div>
+            <div id="page4"><a href="javascript:changePage(4)">4</a></div>
+            <div id="page5"><a href="javascript:changePage(5)">5</a></div>
+            <div id="page6"><a href="javascript:changePage(6)">6</a></div>
+            <div id="number"><a href="javascript:nextPage()">&#x3E;</a></div>
+        </div>
+
     </div>
-    <div class="coffee-view" >
+
+
+    <!-- st comments end here -->
+    <!--PAGES SMTH-->
+    <!--
+    <div class="pages-parent">
+        <div class="pages">
+    		<span>
+			<a class="front-bracket" href="javascript:prevPage()">&#x3C;</a>
+    		</span>
+            <span id="page1">
+				<a  href="javascript:changePage(1)">1</a>
+			</span>
+            <span id="page2">
+				<a  href="javascript:changePage(2)">2</a>
+			</span >
+            <span id="current-page">
+				<a  href="javascript:changePage(3)">3</a>
+			</span>
+            <span id="page4">
+				<a  href="javascript:changePage(4)">4</a>
+			</span>
+            <span id="page5">
+				<a  href="javascript:changePage(5)">5</a>
+			</span>
+            <span id="page6">
+				<a  href="javascript:changePage(6)">6</a>
+			</span>
+            <span>
+				<a class="back-bracket" href="javascript:nextPage()">&#x3E;</a>
+			</span>
+        </div>
+    </div>
+    -->
+    <script src="scripts/comments.js"></script>
+
+    <!--
+    <div class="comments" >
+        <div class="comments-heading" >
+            <span>Comments</span>
+        </div>
+        <hr class="comments-line">
+
+        <div>
+            <img src="images/Smuckersreg.png" alt="Smuckersreg avatar" class="img-woman-1">
+            <img src="images/Smuckersreg.png" alt="Smuckersreg avatar" class="img-woman-2">
+            <img src="images/Smuckersreg.png" alt="Smuckersreg avatar" class="img-woman-3">
+        </div>
+
+        <div>
+            <hr class="comments-line-1">
+            <hr class="comments-line-2">
+            <hr class="comments-line-3">
+        </div>
+
+        <img src="images/Salad.png" alt="Salad" class="img-salad">
+
+        <div class="icon-share-1">
+            <a href="https://www.instagram.com/"><i class="fa-solid fa-share-nodes" id="icon-1"></i></a>
+        </div>
+        <div class="icon-share-2">
+            <a href="https://www.instagram.com/"><i class="fa-solid fa-share-nodes" id="icon-2"></i></a>
+        </div>
+        <div class="icon-share-3">
+            <a href="https://www.instagram.com/"><i class="fa-solid fa-share-nodes" id="icon-3"></i></a>
+        </div>
+
+        <div class="icon-thumbs-1">
+            <a href="https://www.instagram.com/"><i class="fa-regular fa-thumbs-up"></i></a>
+        </div>
+        <div class="icon-thumbs-2">
+            <a href="https://www.instagram.com/"><i class="fa-regular fa-thumbs-up"></i></a>
+        </div>
+        <div class="icon-thumbs-3">
+            <a href="https://www.instagram.com/"><i class="fa-regular fa-thumbs-up"></i></a>
+        </div>
+
+        <div class="comments-text" >
+            <span class="comment-1">post by</span>
+            <span class="comment-2">post by</span>
+            <span class="comment-3">post by</span>
+        </div>
+        <div class="comment-name">
+            <span class="comment-name-1">Smuckersreg Toppings</span>
+            <span class="comment-name-2">Smuckersreg Toppings </span>
+            <span class="comment-name-3">Smuckersreg Toppings </span>
+        </div>
+        <div class="comment-date" style="color: #629494">
+            <span class="comment-date-1">6/10/2014</span>
+            <span class="comment-date-2">6/10/2014</span>
+            <span class="comment-date-3">6/10/2014</span>
+        </div>
+        <div class="comment-reply" style="color: #629494">
+            <span class="comment-reply-1"><a href="https://twitter.com/i/flow/login"><u>reply</u></a></span>
+            <span class="comment-reply-2"><a href="https://twitter.com/i/flow/login"><u>reply</u></a></span>
+            <span class="comment-reply-3"><a href="https://twitter.com/i/flow/login"><u>reply</u></a></span>
+        </div>
+        <div class="comment-thanks">
+            <span class="comment-thanks-1">Thanks for the recipe</span>
+            <span class="comment-thanks-2">Thanks for the recipe</span>
+        </div>
+        <div class="comment-only">
+            <span>Thanks for the recipe lorem ipsum bla bla bla  Thanks for the recipe lore</span>
+        </div>
+        <div class="comment-more">
+            <span>24 more comments</span>
+        </div>
+        <div class="comment-number-1">
+            <span class="number-1">456</span>
+            <span class="number-2">456</span>
+            <span class="number-3">456</span>
+        </div>
+        <div class="comment-number-2">
+            <span class="number-1">15</span>
+            <span class="number-2">15</span>
+            <span class="number-3">15</span>
+        </div>
+        <script src="scripts/comments.js"></script>
+    </div>
+    -->
+
+
+    <!--  black header all the way down -->
+    <footer id ="down-footer">
+        <div id="main-string">
+            <a href="#"><div id="logo"><img src="/images/logo_white.png" alt="LEMON"></div></a>
+            <div class="hrefs">
+                <a href="#">HOME</a>
+                <a href="#">RECIPES</a>
+                <a href="#">PHOTO GALLERIES</a>
+                <a href="#">VIDEOS</a>
+                <a href="#">ALL CATEGORIES</a>
+            </div>
+            <div class="copyrights">
+                <i class="fa fa-copyright"></i>
+                2016-2017 LEMON. All RIGHT RESERVED
+            </div>
+        </div>
+        <div id="icons">
+            <a href="https://google.com"><i class="fa-brands fa-google-plus-g"></i></a>&nbsp&nbsp
+            <a href="https://twitter.com"><i class="fa-brands fa-twitter"></i></a>&nbsp&nbsp
+            <a href="https://facebook.com"><i class="fa-brands fa-facebook-f"></i></a>&nbsp&nbsp
+            <a href="https://pinterest.com"><i class="fa-brands fa-pinterest"></i></a>
+        </div>
+    </footer>
+
+    <div class="coffee">
+        <div>
+            <img src="images/Coffee.png" alt="Coffee avatar" class="img-coffee-1">
+        </div>
+        <div class="coffee-heading" >
+            <span>Popular Now</span>
+        </div>
+        <hr class="coffee-line">
+        <div class="coffee-name" >
+            <span>Vanilla Frozen Coffee</span>
+        </div>
+        <div class="coffee-view" >
         <span>Mix coffee, sugar and creamer. <br>
               Pour into blender and add ice cubes. <br>
               Blend until smooth.</span>
-    </div>
-    <div class="coffee-getrecipe">
-        <button>GET IT RECIPE</button>
-    </div>
-    <a href="index.html"><i class="fa-regular fa-clock fa-xs"></i></a>
-    <a href="index.html"><i class="fa-regular fa-comment fa-xs"></i></a>
-    <a href="index.html"><i class="fa-regular fa-eye fa-xs"></i></a>
-    <div class="coffee-texts">
-        <span class="coffee-texts-1">6 mins |</span>
-        <span class="coffee-texts-2">240</span>
-        <span class="coffee-texts-3">400</span>
-    </div>
-</div>
-
-<div class="comments" >
-    <div class="comments-heading" >
-        <span>Comments</span>
-    </div>
-    <hr class="comments-line">
-
-    <div>
-        <img src="images/Smuckersreg.png" alt="Smuckersreg avatar" class="img-woman-1">
-        <img src="images/Smuckersreg.png" alt="Smuckersreg avatar" class="img-woman-2">
-        <img src="images/Smuckersreg.png" alt="Smuckersreg avatar" class="img-woman-3">
-    </div>
-
-    <div>
-        <hr class="comments-line-1">
-        <hr class="comments-line-2">
-        <hr class="comments-line-3">
-    </div>
-
-    <img src="images/Salad.png" alt="Salad" class="img-salad">
-
-    <div class="icon-share-1">
-        <a href="https://www.instagram.com/"><i class="fa-solid fa-share-nodes" id="icon-1"></i></a>
-    </div>
-    <div class="icon-share-2">
-        <a href="https://www.instagram.com/"><i class="fa-solid fa-share-nodes" id="icon-2"></i></a>
-    </div>
-    <div class="icon-share-3">
-        <a href="https://www.instagram.com/"><i class="fa-solid fa-share-nodes" id="icon-3"></i></a>
-    </div>
-
-    <div class="icon-thumbs-1">
-        <a href="https://www.instagram.com/"><i class="fa-regular fa-thumbs-up"></i></a>
-    </div>
-    <div class="icon-thumbs-2">
-        <a href="https://www.instagram.com/"><i class="fa-regular fa-thumbs-up"></i></a>
-    </div>
-    <div class="icon-thumbs-3">
-        <a href="https://www.instagram.com/"><i class="fa-regular fa-thumbs-up"></i></a>
-    </div>
-
-    <div class="comments-text" >
-        <span class="comment-1">post by</span>
-        <span class="comment-2">post by</span>
-        <span class="comment-3">post by</span>
-    </div>
-    <div class="comment-name">
-        <span class="comment-name-1">Smuckersreg Toppings</span>
-        <span class="comment-name-2">Smuckersreg Toppings </span>
-        <span class="comment-name-3">Smuckersreg Toppings </span>
-    </div>
-    <div class="comment-date" style="color: #629494">
-        <span class="comment-date-1">6/10/2014</span>
-        <span class="comment-date-2">6/10/2014</span>
-        <span class="comment-date-3">6/10/2014</span>
-    </div>
-    <div class="comment-reply" style="color: #629494">
-        <span class="comment-reply-1"><a href="https://twitter.com/i/flow/login"><u>reply</u></a></span>
-        <span class="comment-reply-2"><a href="https://twitter.com/i/flow/login"><u>reply</u></a></span>
-        <span class="comment-reply-3"><a href="https://twitter.com/i/flow/login"><u>reply</u></a></span>
-    </div>
-    <div class="comment-thanks">
-        <span class="comment-thanks-1">Thanks for the recipe</span>
-        <span class="comment-thanks-2">Thanks for the recipe</span>
-    </div>
-    <div class="comment-only">
-        <span>Thanks for the recipe lorem ipsum bla bla bla  Thanks for the recipe lore</span>
-    </div>
-    <div class="comment-more">
-        <span>24 more comments</span>
-    </div>
-    <div class="comment-number-1">
-        <span class="number-1">456</span>
-        <span class="number-2">456</span>
-        <span class="number-3">456</span>
-    </div>
-    <div class="comment-number-2">
-        <span class="number-1">15</span>
-        <span class="number-2">15</span>
-        <span class="number-3">15</span>
-    </div>
-</div>
-	
-<!--PAGES SMTH-->
-    <div class="pages-parent">
-    	<div class="pages">
-    		<span>
-			<a class="front-bracket" href='#'><</a>
-    		</span>
-			<span>
-				<a class="first-page" href='#'>1</a>
-			</span>
-			<span>
-				<a class="second-page" href='#'>2</a>
-			</span>
-			<span>
-				<a class="third-page" href='#'>3</a>
-			</span>
-			<span>
-				<a  class="fourth-page" href='#'>4</a>
-			</span>
-			<span>
-				<a class="fifth-page" href='#'>5</a>
-			</span>
-			<span>
-				<a class="sixth-page" href='#'>6</a>
-			</span>
-			<span>
-				<a class="back-bracket" href="#">></a>
-			</span>
-    	</div>
+        </div>
+        <div class="coffee-getrecipe">
+            <button>GET IT RECIPE</button>
+        </div>
+        <a href="index.html"><i class="fa-regular fa-clock fa-xs"></i></a>
+        <a href="index.html"><i class="fa-regular fa-comment fa-xs"></i></a>
+        <a href="index.html"><i class="fa-regular fa-eye fa-xs"></i></a>
+        <div class="coffee-texts">
+            <span class="coffee-texts-1">6 mins |</span>
+            <span class="coffee-texts-2">240</span>
+            <span class="coffee-texts-3">400</span>
+        </div>
     </div>
     <!--Scripts-->
     <script src="scripts/slider.js" type="text/javascript"></script>
