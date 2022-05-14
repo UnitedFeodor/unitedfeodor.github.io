@@ -707,6 +707,7 @@
 	 document.body.appendChild(el);
 	 const btn = document.getElementById('savebtn');
 	  btn.innerHTML = '<span id = "savebtn" class="save-button" ><i class="fa-solid fa-check"></i>Saved</span>'
-	  btn.setAttribute("style", "margin-left: 265px;");	
+	  btn.setAttribute("style", "margin-left: 265px;");
+	  sessionStorage.setItem("savebtn", 1);
 }
 </script>
