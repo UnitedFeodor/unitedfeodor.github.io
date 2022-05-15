@@ -803,13 +803,39 @@ footer #main-string a:hover{
 
 footer .hrefs {
     margin-left: 112px;
-    margin-top: 12px;
+    margin-top: 72px;
 }
-
+#logo {
+    margin-top: 62px;
+}
 footer .copyrights{
     letter-spacing: 0.025em;
-    margin-top: 12px;
+    margin-top: 72px;
     margin-left: 128px;
+}
+#number{
+    margin-top: 30px;
+}
+#page1{
+    margin-top: 30px;
+}
+#page2{
+    margin-top: 30px;
+}
+#page3{
+    margin-top: 30px;
+}
+#page4{
+    margin-top: 30px;
+}
+#page5{
+    margin-top: 30px;
+}
+#page6{
+    margin-top: 30px;
+}
+#current-page{
+    margin-top: 30px;
 }
 
 footer .hrefs a+a{
